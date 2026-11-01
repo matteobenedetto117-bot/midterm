@@ -1,5 +1,5 @@
 {
- "aggiornato": "1 novembre 2026, 23:30",
+ "aggiornato": "1 novembre 2026, 23:40",
  "mode": "pre",
  "races": {
   "AL": {
@@ -113,12 +113,12 @@
     ]
    ],
    "poll": {
-    "src": "UC Berkeley IGS",
-    "date": "19–25 ott",
-    "n": "1.477 LV",
+    "src": "ActiVote",
+    "date": "31 ott",
+    "n": "400 LV",
     "v": {
-     "Xavier Becerra": 61,
-     "Steve Hilton": 34
+     "Xavier Becerra": 63,
+     "Steve Hilton": 37
     }
    },
    "live": null,
@@ -183,12 +183,12 @@
     ]
    ],
    "poll": {
-    "src": "Stetson University",
-    "date": "26–30 ott",
-    "n": "861 LV",
+    "src": "ActiVote",
+    "date": "31 ott",
+    "n": "400 LV",
     "v": {
-     "Byron Donalds": 51,
-     "David Jolly": 45
+     "Byron Donalds": 52,
+     "David Jolly": 48
     }
    },
    "live": null,
@@ -272,11 +272,11 @@
    ],
    "poll": {
     "src": "ActiVote",
-    "date": "2–22 ott",
+    "date": "31 ott",
     "n": "400 LV",
     "v": {
-     "JB Pritzker": 58.7,
-     "Darren Bailey": 41.3
+     "JB Pritzker": 59,
+     "Darren Bailey": 41
     }
    },
    "live": null,

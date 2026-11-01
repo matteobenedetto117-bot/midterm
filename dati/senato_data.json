@@ -1,5 +1,5 @@
 {
- "aggiornato": "1 novembre 2026, 21:00",
+ "aggiornato": "1 novembre 2026, 23:40",
  "states": {
   "AL": {
    "fips": "01",
@@ -810,12 +810,12 @@
      ]
     ],
     "poll": {
-     "src": "UMass Lowell",
-     "date": "29 ott",
+     "src": "Rasmussen Reports (R)",
+     "date": "1 nov",
      "n": "LV",
      "v": {
-      "Chris Pappas": 48,
-      "John E. Sununu": 41
+      "Chris Pappas": 50,
+      "John E. Sununu": 44
      }
     },
     "close": "02:00",
@@ -1203,12 +1203,12 @@
      ]
     ],
     "poll": {
-     "src": "KStrat",
-     "date": "30 ott",
-     "n": "900 LV",
+     "src": "YouGov",
+     "date": "1 nov",
+     "n": "LV",
      "v": {
-      "James Talarico": 48,
-      "Ken Paxton": 45
+      "James Talarico": 51,
+      "Ken Paxton": 47
      }
     },
     "close": "03:00",
