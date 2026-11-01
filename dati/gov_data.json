@@ -1,0 +1,962 @@
+{
+ "aggiornato": "1 novembre 2026, 23:30",
+ "mode": "pre",
+ "races": {
+  "AL": {
+   "inc": "R",
+   "uscente": "Kay Ivey — non può ricandidarsi (limite di mandati)",
+   "rating": "Solid R",
+   "cand": [
+    [
+     "R",
+     "Tommy Tuberville"
+    ],
+    [
+     "D",
+     "Doug Jones"
+    ]
+   ],
+   "poll": {
+    "src": "Blueprint Polling",
+    "date": "22–24 ott",
+    "n": "695 LV",
+    "v": {
+     "Tommy Tuberville": 48,
+     "Doug Jones": 45
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "AK": {
+   "inc": "R",
+   "uscente": "Mike Dunleavy — non può ricandidarsi (limite di mandati)",
+   "rating": "Lean D",
+   "cand": [
+    [
+     "D",
+     "Jonathan Kreiss-Tomkins"
+    ],
+    [
+     "R",
+     "Bernadette Wilson"
+    ]
+   ],
+   "poll": {
+    "src": "Alaska Survey Research (turno finale ranked-choice)",
+    "date": "23–25 ott",
+    "n": "1.068 LV",
+    "v": {
+     "Jonathan Kreiss-Tomkins": 53,
+     "Bernadette Wilson": 47
+    }
+   },
+   "live": null,
+   "close": "07:00"
+  },
+  "AZ": {
+   "inc": "D",
+   "uscente": "Katie Hobbs (si ricandida)",
+   "rating": "Likely D",
+   "cand": [
+    [
+     "D",
+     "Katie Hobbs"
+    ],
+    [
+     "R",
+     "Andy Biggs"
+    ]
+   ],
+   "poll": {
+    "src": "Noble Predictive Insights",
+    "date": "26–28 ott",
+    "n": "511 LV",
+    "v": {
+     "Katie Hobbs": 51,
+     "Andy Biggs": 45
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "AR": {
+   "inc": "R",
+   "uscente": "Sarah Huckabee Sanders (si ricandida)",
+   "rating": "Solid R",
+   "cand": [
+    [
+     "R",
+     "Sarah Huckabee Sanders"
+    ],
+    [
+     "D",
+     "Fredrick Love"
+    ]
+   ],
+   "poll": null,
+   "live": null,
+   "close": "02:30"
+  },
+  "CA": {
+   "inc": "D",
+   "uscente": "Gavin Newsom — non può ricandidarsi (limite di mandati)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Xavier Becerra"
+    ],
+    [
+     "R",
+     "Steve Hilton"
+    ]
+   ],
+   "poll": {
+    "src": "UC Berkeley IGS",
+    "date": "19–25 ott",
+    "n": "1.477 LV",
+    "v": {
+     "Xavier Becerra": 61,
+     "Steve Hilton": 34
+    }
+   },
+   "live": null,
+   "close": "05:00"
+  },
+  "CO": {
+   "inc": "D",
+   "uscente": "Jared Polis — non può ricandidarsi (limite di mandati)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Phil Weiser"
+    ],
+    [
+     "R",
+     "Victor Marx"
+    ]
+   ],
+   "poll": null,
+   "live": null,
+   "close": "03:00"
+  },
+  "CT": {
+   "inc": "D",
+   "uscente": "Ned Lamont (si ricandida)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Ned Lamont"
+    ],
+    [
+     "R",
+     "Ryan Fazio"
+    ]
+   ],
+   "poll": {
+    "src": "Emerson College",
+    "date": "10–12 ott",
+    "n": "800 LV",
+    "v": {
+     "Ned Lamont": 51.4,
+     "Ryan Fazio": 37.8
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "FL": {
+   "inc": "R",
+   "uscente": "Ron DeSantis — non può ricandidarsi (limite di mandati)",
+   "rating": "Lean R",
+   "cand": [
+    [
+     "R",
+     "Byron Donalds"
+    ],
+    [
+     "D",
+     "David Jolly"
+    ]
+   ],
+   "poll": {
+    "src": "Stetson University",
+    "date": "26–30 ott",
+    "n": "861 LV",
+    "v": {
+     "Byron Donalds": 51,
+     "David Jolly": 45
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "GA": {
+   "inc": "R",
+   "uscente": "Brian Kemp — non può ricandidarsi (limite di mandati)",
+   "rating": "Toss-up",
+   "cand": [
+    [
+     "D",
+     "Keisha Lance Bottoms"
+    ],
+    [
+     "R",
+     "Rick Jackson"
+    ]
+   ],
+   "poll": {
+    "src": "State Navigate",
+    "date": "23–27 ott",
+    "n": "679 LV",
+    "v": {
+     "Keisha Lance Bottoms": 50,
+     "Rick Jackson": 47
+    }
+   },
+   "live": null,
+   "close": "01:00"
+  },
+  "HI": {
+   "inc": "D",
+   "uscente": "Josh Green (si ricandida)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Josh Green"
+    ],
+    [
+     "R",
+     "Gary Cordery"
+    ]
+   ],
+   "poll": null,
+   "live": null,
+   "close": "06:00"
+  },
+  "ID": {
+   "inc": "R",
+   "uscente": "Brad Little (si ricandida)",
+   "rating": "Solid R",
+   "cand": [
+    [
+     "R",
+     "Brad Little"
+    ],
+    [
+     "D",
+     "Terri Pickens"
+    ]
+   ],
+   "poll": null,
+   "live": null,
+   "close": "05:00"
+  },
+  "IL": {
+   "inc": "D",
+   "uscente": "JB Pritzker (si ricandida)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "JB Pritzker"
+    ],
+    [
+     "R",
+     "Darren Bailey"
+    ]
+   ],
+   "poll": {
+    "src": "ActiVote",
+    "date": "2–22 ott",
+    "n": "400 LV",
+    "v": {
+     "JB Pritzker": 58.7,
+     "Darren Bailey": 41.3
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "IA": {
+   "inc": "R",
+   "uscente": "Kim Reynolds (non si ricandida)",
+   "rating": "Lean D",
+   "cand": [
+    [
+     "D",
+     "Rob Sand"
+    ],
+    [
+     "R",
+     "Zach Lahn"
+    ]
+   ],
+   "poll": {
+    "src": "co/efficient (R)",
+    "date": "28 ott",
+    "n": "1.020 LV",
+    "v": {
+     "Rob Sand": 50,
+     "Zach Lahn": 45
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "KS": {
+   "inc": "D",
+   "uscente": "Laura Kelly — non può ricandidarsi (limite di mandati)",
+   "rating": "Toss-up",
+   "cand": [
+    [
+     "R",
+     "Ty Masterson"
+    ],
+    [
+     "D",
+     "Cindy Holscher"
+    ]
+   ],
+   "poll": {
+    "src": "Emerson College",
+    "date": "26–28 ott",
+    "n": "800 LV",
+    "v": {
+     "Ty Masterson": 50,
+     "Cindy Holscher": 46
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "ME": {
+   "inc": "D",
+   "uscente": "Janet Mills — non può ricandidarsi (limite di mandati)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Hannah Pingree"
+    ],
+    [
+     "R",
+     "Robert Charles"
+    ]
+   ],
+   "poll": {
+    "src": "CNN / SSRS",
+    "date": "20–26 ott",
+    "n": "783 LV",
+    "v": {
+     "Hannah Pingree": 53,
+     "Robert Charles": 39
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "MD": {
+   "inc": "D",
+   "uscente": "Wes Moore (si ricandida)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Wes Moore"
+    ],
+    [
+     "R",
+     "Dan Cox"
+    ]
+   ],
+   "poll": {
+    "src": "UMBC Institute of Politics",
+    "date": "22–27 set",
+    "n": "776 LV",
+    "v": {
+     "Wes Moore": 51,
+     "Dan Cox": 24
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "MA": {
+   "inc": "D",
+   "uscente": "Maura Healey (si ricandida)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Maura Healey"
+    ],
+    [
+     "R",
+     "Mike Minogue"
+    ]
+   ],
+   "poll": {
+    "src": "UMass Lowell / YouGov",
+    "date": "7–18 ott",
+    "n": "850 LV",
+    "v": {
+     "Maura Healey": 57,
+     "Mike Minogue": 29
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "MI": {
+   "inc": "D",
+   "uscente": "Gretchen Whitmer — non può ricandidarsi (limite di mandati)",
+   "rating": "Lean D",
+   "cand": [
+    [
+     "D",
+     "Jocelyn Benson"
+    ],
+    [
+     "R",
+     "John James"
+    ]
+   ],
+   "poll": {
+    "src": "Rasmussen Reports (R)",
+    "date": "28–29 ott",
+    "n": "745 LV",
+    "v": {
+     "Jocelyn Benson": 50,
+     "John James": 40
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "MN": {
+   "inc": "D",
+   "uscente": "Tim Walz (non si ricandida)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Amy Klobuchar"
+    ],
+    [
+     "R",
+     "Lisa Demuth"
+    ]
+   ],
+   "poll": {
+    "src": "State Navigate",
+    "date": "26–28 ott",
+    "n": "806 LV",
+    "v": {
+     "Amy Klobuchar": 52,
+     "Lisa Demuth": 42
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "NE": {
+   "inc": "R",
+   "uscente": "Jim Pillen (si ricandida)",
+   "rating": "Lean R",
+   "cand": [
+    [
+     "R",
+     "Jim Pillen"
+    ],
+    [
+     "D",
+     "Lynne Walz"
+    ]
+   ],
+   "poll": {
+    "src": "New York Times / Siena",
+    "date": "31 ott",
+    "n": "LV",
+    "v": {
+     "Jim Pillen": 53,
+     "Lynne Walz": 40
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "NV": {
+   "inc": "R",
+   "uscente": "Joe Lombardo (si ricandida)",
+   "rating": "Toss-up",
+   "cand": [
+    [
+     "R",
+     "Joe Lombardo"
+    ],
+    [
+     "D",
+     "Aaron Ford"
+    ]
+   ],
+   "poll": {
+    "src": "Noble Predictive Insights",
+    "date": "26–28 ott",
+    "n": "487 LV",
+    "v": {
+     "Joe Lombardo": 47,
+     "Aaron Ford": 47
+    }
+   },
+   "live": null,
+   "close": "04:00"
+  },
+  "NH": {
+   "inc": "R",
+   "uscente": "Kelly Ayotte (si ricandida)",
+   "rating": "Likely R",
+   "cand": [
+    [
+     "R",
+     "Kelly Ayotte"
+    ],
+    [
+     "D",
+     "Cinde Warmington"
+    ]
+   ],
+   "poll": {
+    "src": "Saint Anselm College",
+    "date": "19–20 ott",
+    "n": "1.672 LV",
+    "v": {
+     "Kelly Ayotte": 50,
+     "Cinde Warmington": 42
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "NM": {
+   "inc": "D",
+   "uscente": "Michelle Lujan Grisham — non può ricandidarsi (limite di mandati)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Deb Haaland"
+    ],
+    [
+     "R",
+     "Gregg Hull"
+    ]
+   ],
+   "poll": {
+    "src": "BSP Research",
+    "date": "22 lug–7 ago",
+    "n": "800 RV",
+    "v": {
+     "Deb Haaland": 41,
+     "Gregg Hull": 24
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "NY": {
+   "inc": "D",
+   "uscente": "Kathy Hochul (si ricandida)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Kathy Hochul"
+    ],
+    [
+     "R",
+     "Bruce Blakeman"
+    ]
+   ],
+   "poll": {
+    "src": "Quinnipiac University",
+    "date": "15–19 ott",
+    "n": "1.167 LV",
+    "v": {
+     "Kathy Hochul": 55,
+     "Bruce Blakeman": 41
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "OH": {
+   "inc": "R",
+   "uscente": "Mike DeWine — non può ricandidarsi (limite di mandati)",
+   "rating": "Lean D",
+   "cand": [
+    [
+     "D",
+     "Amy Acton"
+    ],
+    [
+     "R",
+     "Vivek Ramaswamy"
+    ]
+   ],
+   "poll": {
+    "src": "ActiVote",
+    "date": "16–31 ott",
+    "n": "400 LV",
+    "v": {
+     "Amy Acton": 50.8,
+     "Vivek Ramaswamy": 49.2
+    }
+   },
+   "live": null,
+   "close": "01:30"
+  },
+  "OK": {
+   "inc": "R",
+   "uscente": "Kevin Stitt — non può ricandidarsi (limite di mandati)",
+   "rating": "Likely R",
+   "cand": [
+    [
+     "R",
+     "Mike Mazzei"
+    ],
+    [
+     "D",
+     "Cyndi Munson"
+    ]
+   ],
+   "poll": null,
+   "live": null,
+   "close": "02:00"
+  },
+  "OR": {
+   "inc": "D",
+   "uscente": "Tina Kotek (si ricandida)",
+   "rating": "Lean D",
+   "cand": [
+    [
+     "D",
+     "Tina Kotek"
+    ],
+    [
+     "R",
+     "Christine Drazan"
+    ]
+   ],
+   "poll": {
+    "src": "DHM Research",
+    "date": "24 set–1 ott",
+    "n": "549 LV",
+    "v": {
+     "Tina Kotek": 46,
+     "Christine Drazan": 44
+    }
+   },
+   "live": null,
+   "close": "05:00"
+  },
+  "PA": {
+   "inc": "D",
+   "uscente": "Josh Shapiro (si ricandida)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Josh Shapiro"
+    ],
+    [
+     "R",
+     "Stacy Garrity"
+    ]
+   ],
+   "poll": {
+    "src": "ActiVote",
+    "date": "1–21 ott",
+    "n": "400 LV",
+    "v": {
+     "Josh Shapiro": 61.5,
+     "Stacy Garrity": 38.5
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "RI": {
+   "inc": "D",
+   "uscente": "Dan McKee (sconfitto alle primarie)",
+   "rating": "Solid D",
+   "cand": [
+    [
+     "D",
+     "Helena Foulkes"
+    ],
+    [
+     "I",
+     "Ken Block"
+    ],
+    [
+     "R",
+     "Aaron Guckian"
+    ]
+   ],
+   "poll": {
+    "src": "Embold Research",
+    "date": "5–8 ott",
+    "n": "815 LV",
+    "v": {
+     "Helena Foulkes": 39,
+     "Ken Block": 28,
+     "Aaron Guckian": 17
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "SC": {
+   "inc": "R",
+   "uscente": "Henry McMaster — non può ricandidarsi (limite di mandati)",
+   "rating": "Solid R",
+   "cand": [
+    [
+     "R",
+     "Alan Wilson"
+    ],
+    [
+     "D",
+     "Jermaine Johnson"
+    ]
+   ],
+   "poll": {
+    "src": "Targoz Market Research",
+    "date": "16–25 ott",
+    "n": "895 LV",
+    "v": {
+     "Alan Wilson": 51,
+     "Jermaine Johnson": 41
+    }
+   },
+   "live": null,
+   "close": "01:00"
+  },
+  "SD": {
+   "inc": "R",
+   "uscente": "Larry Rhoden (si ricandida)",
+   "rating": "Solid R",
+   "cand": [
+    [
+     "R",
+     "Larry Rhoden"
+    ],
+    [
+     "D",
+     "Dan Ahlers"
+    ]
+   ],
+   "poll": {
+    "src": "Concord Public Opinion Partners (D)",
+    "date": "22–26 ott",
+    "n": "448 LV",
+    "v": {
+     "Larry Rhoden": 48,
+     "Dan Ahlers": 39
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "TN": {
+   "inc": "R",
+   "uscente": "Bill Lee — non può ricandidarsi (limite di mandati)",
+   "rating": "Solid R",
+   "cand": [
+    [
+     "R",
+     "Marsha Blackburn"
+    ],
+    [
+     "D",
+     "Jerri Green"
+    ],
+    [
+     "I",
+     "David Hatley"
+    ]
+   ],
+   "poll": {
+    "src": "Spry Strategies",
+    "date": "10–16 ott",
+    "n": "635 LV",
+    "v": {
+     "Marsha Blackburn": 44,
+     "Jerri Green": 32,
+     "David Hatley": 12
+    }
+   },
+   "live": null,
+   "close": "02:00"
+  },
+  "TX": {
+   "inc": "R",
+   "uscente": "Greg Abbott (si ricandida)",
+   "rating": "Lean R",
+   "cand": [
+    [
+     "R",
+     "Greg Abbott"
+    ],
+    [
+     "D",
+     "Gina Hinojosa"
+    ]
+   ],
+   "poll": {
+    "src": "Quantus Insights",
+    "date": "30 ott",
+    "n": "LV",
+    "v": {
+     "Greg Abbott": 52,
+     "Gina Hinojosa": 46
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "VT": {
+   "inc": "R",
+   "uscente": "Phil Scott (si ricandida)",
+   "rating": "Likely R",
+   "cand": [
+    [
+     "R",
+     "Phil Scott"
+    ],
+    [
+     "D",
+     "Amanda Janoo"
+    ]
+   ],
+   "poll": {
+    "src": "State Navigate",
+    "date": "23–25 ott",
+    "n": "1.752 LV",
+    "v": {
+     "Phil Scott": 49,
+     "Amanda Janoo": 46
+    }
+   },
+   "live": null,
+   "close": "01:00"
+  },
+  "WI": {
+   "inc": "D",
+   "uscente": "Tony Evers (non si ricandida)",
+   "rating": "Lean D",
+   "cand": [
+    [
+     "D",
+     "David Crowley"
+    ],
+    [
+     "R",
+     "Tom Tiffany"
+    ]
+   ],
+   "poll": {
+    "src": "Wick / League of American Workers",
+    "date": "19–23 ott",
+    "n": "1.213 LV",
+    "v": {
+     "David Crowley": 47.7,
+     "Tom Tiffany": 44.6
+    }
+   },
+   "live": null,
+   "close": "03:00"
+  },
+  "WY": {
+   "inc": "R",
+   "uscente": "Mark Gordon — non può ricandidarsi (limite di mandati)",
+   "rating": "Solid R",
+   "cand": [
+    [
+     "R",
+     "Eric Barlow"
+    ],
+    [
+     "D",
+     "Kenneth Casner"
+    ]
+   ],
+   "poll": null,
+   "live": null,
+   "close": "03:00"
+  }
+ },
+ "notup": {
+  "DE": [
+   "D",
+   "Matt Meyer"
+  ],
+  "IN": [
+   "R",
+   "Mike Braun"
+  ],
+  "KY": [
+   "D",
+   "Andy Beshear"
+  ],
+  "LA": [
+   "R",
+   "Jeff Landry"
+  ],
+  "MS": [
+   "R",
+   "Tate Reeves"
+  ],
+  "MO": [
+   "R",
+   "Mike Kehoe"
+  ],
+  "MT": [
+   "R",
+   "Greg Gianforte"
+  ],
+  "NJ": [
+   "D",
+   "Mikie Sherrill"
+  ],
+  "NC": [
+   "D",
+   "Josh Stein"
+  ],
+  "ND": [
+   "R",
+   "Kelly Armstrong"
+  ],
+  "UT": [
+   "R",
+   "Spencer Cox"
+  ],
+  "VA": [
+   "D",
+   "Abigail Spanberger"
+  ],
+  "WA": [
+   "D",
+   "Bob Ferguson"
+  ],
+  "WV": [
+   "R",
+   "Patrick Morrisey"
+  ]
+ }
+}

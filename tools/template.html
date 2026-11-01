@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Midterm USA 2026 · Diretta</title>
+<style>
+:root{
+  --d:#1d5fd6; --r:#d62828; --i:#e8b400;
+  --bg:#f6f4ef; --card:#ffffff; --ink:#1c1c1c; --muted:#6b6b6b; --line:#dcd8cf;
+  --state:#e6e2d8; --stateBorder:#ffffff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{padding:18px 20px 8px;max-width:1180px;margin:0 auto}
+h1{font-size:22px;margin:0 0 2px;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:13px}
+nav{display:flex;gap:6px;margin:14px 0 4px;flex-wrap:wrap}
+nav button{border:1px solid var(--line);background:var(--card);padding:6px 14px;border-radius:999px;font:inherit;font-size:14px;cursor:pointer;color:var(--ink)}
+nav button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+nav button:disabled{opacity:.45;cursor:default}
+.phase{display:inline-block;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-top:6px}
+main{max-width:1180px;margin:0 auto;padding:0 12px 30px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
+.counts{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;padding:4px 6px 10px}
+.side{font-size:13px;color:var(--muted)}
+.side b{font-size:26px;display:block;line-height:1;color:var(--ink)}
+.bar-title span b{font-size:13px}.side.i{text-align:center;display:none}.side.i b{color:#b38a00}.ctrl{text-align:center;font-weight:700;font-size:15px;padding:6px;border-radius:8px;margin:0 0 6px}.side.d b{color:var(--d)} .side.r b{color:var(--r)} .side.r{text-align:right}
+.mid{text-align:center;font-size:13px;color:var(--muted)}
+svg#map{width:100%;height:auto;display:block}
+.st{fill:var(--state);stroke:var(--stateBorder);stroke-width:1}
+.sq{cursor:default;stroke:#fff;stroke-width:.8}
+.sq.up{cursor:pointer;stroke:#fff;stroke-width:1}
+.sq.up:hover{stroke:var(--ink);stroke-width:1.6}
+.lead{stroke:#9a958a;stroke-width:.8;fill:none}
+.lbl{font-size:11px;fill:var(--ink);font-weight:600}
+.bar-wrap{margin-top:14px;padding:14px 6px 6px;border-top:1px solid var(--line)}
+.bar-title{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:26px}
+.bar{position:relative;display:grid;grid-auto-flow:column;grid-template-rows:repeat(1,auto);gap:2px;justify-content:center}
+.bar .s{width:9px;height:18px;border-radius:2px}
+.bar .s.up{cursor:pointer}
+.bar .s.up:hover{outline:1.5px solid var(--ink)}
+.thr{position:absolute;top:-8px;bottom:-8px;left:50%;width:0;border-left:2px dashed var(--ink)}
+.thr span{position:absolute;top:-16px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:11px;font-weight:600;background:var(--card);padding:0 4px}
+.thr-note{text-align:center;font-size:12px;color:var(--muted);margin-top:14px}
+.hint{display:none;text-align:center;font-size:12px;color:var(--muted);margin:2px 0 6px}
+.hbar{position:relative;display:grid;grid-auto-flow:column;grid-template-rows:repeat(5,auto);gap:1.5px;justify-content:center}
+.hbar .s{width:calc(min(1100px,100vw - 60px)/87 - 1.5px);height:9px;border-radius:1px}
+.stg{stroke:#fff;stroke-width:1}.stg.up{cursor:pointer}.stg.up:hover{filter:brightness(.9)}
+.sth{fill:var(--state);stroke:#fff;stroke-width:1;cursor:pointer}.sth:hover{fill:#d9d3c6}
+.legend{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;font-size:12px;color:var(--muted);margin-top:10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+@media (max-width:760px){
+  .bar{grid-template-rows:repeat(2,auto)}
+  .bar .s{width:calc((100vw - 70px)/50 - 2px);height:12px;min-width:3px}
+  h1{font-size:19px}
+  .bar-title .c{display:none}
+  .side b{font-size:22px}
+  .mid{font-size:12px}
+  .hint{display:block}
+}
+.hit{fill:transparent;cursor:pointer}
+/* popup */
+#ov{position:fixed;inset:0;background:rgba(20,20,20,.35);display:none;align-items:center;justify-content:center;padding:16px;z-index:10}
+#ov.on{display:flex}
+.pop{background:var(--card);border-radius:14px;max-width:420px;width:100%;padding:16px 18px 14px;box-shadow:0 12px 40px rgba(0,0,0,.25);position:relative}
+.pop h2{margin:0;font-size:19px}
+.pop .meta{font-size:12px;color:var(--muted);margin:2px 0 12px}
+.pop .x{position:absolute;top:8px;right:10px;border:0;background:none;font-size:24px;line-height:1;cursor:pointer;color:var(--muted)}
+.chip.win{background:#1c1c1c;color:#fff}.live-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#e01e1e;margin-right:6px;animation:bl 1.4s infinite}@keyframes bl{50%{opacity:.25}}
+.chip{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;background:#eee;margin-left:6px;vertical-align:2px}
+.cand{margin:9px 0}
+.cand .top{display:flex;justify-content:space-between;font-size:14px}
+.cand .top b{font-variant-numeric:tabular-nums}
+.track{height:10px;background:#efece5;border-radius:5px;overflow:hidden;margin-top:4px}
+.track div{height:100%}
+.src{font-size:12px;color:var(--muted);margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
+.nopoll{font-size:13px;color:var(--muted);font-style:italic;margin:6px 0}
+footer{max-width:1180px;margin:0 auto;padding:0 20px 30px;font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Midterm USA 2026 — 3 novembre</h1>
+  <div class="sub">Tutti gli orari in ora italiana · Dati aggiornati al <span id="upd"></span></div>
+  <nav>
+    <button class="on" data-tab="senato">Senato</button>
+    <button data-tab="camera">Camera</button>
+    <button data-tab="governatori">Governatori</button>
+  </nav>
+  <span class="phase" id="phase"></span>
+</header>
+<main>
+  <section id="p-senato">
+  <div class="panel">
+    <div class="ctrl" id="ctrl"></div>
+    <div class="counts">
+      <div class="side d"><b id="cD"></b>Democratici<br><span id="cDsub"></span></div>
+      <div class="side i" id="colI"><b id="cI"></b>Indipendenti<br><span id="cIsub"></span></div>
+      <div class="mid" id="mid"></div>
+      <div class="side r"><b id="cR"></b>Repubblicani<br><span id="cRsub"></span></div>
+    </div>
+    <svg id="map" viewBox="0 0 1060 620" role="img" aria-label="Cartina del Senato USA"></svg>
+    <div class="hint">Tocca i quadratini accesi sulla mappa o nella barra</div>
+    <div class="legend">
+      <span><i style="background:var(--d)"></i>Dem in rinnovo</span>
+      <span><i style="background:var(--r)"></i>Rep in rinnovo</span>
+      <span><i style="background:var(--d);opacity:.28"></i><i style="background:var(--r);opacity:.28"></i>non in rinnovo</span>
+      <span><i style="background:var(--i)"></i>altri</span>
+    </div>
+    <div class="bar-wrap">
+      <div class="bar-title"><span>← Democratici</span><span id="barT">Composizione attuale del Senato</span><span>Repubblicani →</span></div>
+      <div class="bar" id="bar"><div class="thr"><span>50</span></div></div>
+      <div class="bar-title" style="margin-top:22px"><span>← Democratici</span><span id="barT2"></span><span>Repubblicani →</span></div>
+      <div class="bar" id="bar2"><div class="thr"><span>50</span></div></div>
+      <div class="thr-note">Soglia del controllo: con il vicepresidente JD Vance a spareggiare, ai Repubblicani bastano 50 seggi, ai Democratici ne servono 51.</div>
+    </div>
+  </div>
+  </section>
+  <section id="p-camera" style="display:none">
+  <div class="panel">
+    <div class="ctrl" id="hctrl"></div>
+    <div class="counts">
+      <div class="side d"><b id="hD"></b>Democratici<br><span id="hDsub"></span></div>
+      <div class="mid" id="hmid"></div>
+      <div class="side r"><b id="hR"></b>Repubblicani<br><span id="hRsub"></span></div>
+    </div>
+    <svg id="mapH" viewBox="0 0 1110 620" role="img" aria-label="Cartina della Camera USA"></svg>
+    <div class="hint" style="display:block">Cartina: seggi attuali · tocca uno stato per la proiezione</div>
+    <div class="legend">
+      <span><i style="background:var(--d)"></i>seggi dem a rischio</span>
+      <span><i style="background:var(--r)"></i>seggi rep a rischio</span>
+      <span><i style="background:var(--d);opacity:.55"></i><i style="background:var(--r);opacity:.55"></i>seggi più sicuri</span>
+      <span><i style="background:#b9b4a8"></i>vacante</span>
+    </div>
+    <div class="bar-wrap">
+      <div class="bar-title"><span>← Democratici</span><span>Composizione attuale</span><span>Repubblicani →</span></div>
+      <div class="hbar" id="hbar"><div class="thr"><span>218</span></div></div>
+      <div class="bar-title" style="margin-top:22px"><span>← Democratici</span><span id="hbarT2"></span><span>Repubblicani →</span></div>
+      <div class="hbar" id="hbar2"><div class="thr"><span>218</span></div></div>
+      <div class="thr-note">Maggioranza: 218 seggi su 435.</div>
+    </div>
+  </div>
+  </section>
+  <section id="p-governatori" style="display:none">
+  <div class="panel">
+    <div class="ctrl" id="gctrl"></div>
+    <div class="counts">
+      <div class="side d"><b id="gD"></b>Governatori dem<br><span id="gDsub"></span></div>
+      <div class="side i" id="gcolI"><b id="gI"></b>Indipendenti<br><span id="gIsub"></span></div>
+      <div class="mid" id="gmid"></div>
+      <div class="side r"><b id="gR"></b>Governatori rep<br><span id="gRsub"></span></div>
+    </div>
+    <svg id="mapG" viewBox="0 0 1060 620" role="img" aria-label="Cartina dei governatori"></svg>
+    <div class="hint" style="display:block">Tocca uno stato acceso per i sondaggi</div>
+    <div class="legend">
+      <span><i style="background:var(--d)"></i><i style="background:var(--r)"></i>al voto</span>
+      <span><i style="background:var(--d);opacity:.28"></i><i style="background:var(--r);opacity:.28"></i>non al voto nel 2026</span>
+    </div>
+  </div>
+  </section>
+</main>
+<footer id="foot-s">Tocca un quadratino acceso per vedere candidati, sondaggio o spoglio. Durante lo spoglio il riempimento è il colore di chi è in vantaggio, il contorno quello del partito uscente; ✓ = seggio assegnato. Rating: Cook Political Report (30 ott). LV = elettori probabili, RV = elettori registrati.</footer>
+<footer id="foot-g" style="display:none">Tocca uno stato acceso per l'ultimo sondaggio o, durante lo spoglio, i risultati. Durante lo spoglio il riempimento è il colore di chi è in vantaggio, il bordo spesso quello del partito del governatore uscente; ✓ = vittoria assegnata. Rating: Cook Political Report.</footer>
+<footer id="foot-c" style="display:none">Proiezione pre-voto: consenso degli analisti (Cook, Sabato, Inside Elections e altri via 270toWin); sulla cartina e nella barra attuale i seggi accesi sono quelli a rischio, colorati sul partito che li detiene oggi (blu acceso = seggio dem che può passare ai rep, rosso acceso = seggio rep che può passare ai dem); nella barra della proiezione i seggi accesi sono quelli in bilico, colorati sul favorito. I seggi in bilico sono assegnati al favorito nei modelli (Decision Desk HQ), altrimenti al partito uscente. Cartina e numeri in alto: seggi attuali. Durante lo spoglio: riempimento = chi è in vantaggio, contorno = partito uscente; acceso = seggio ancora in gioco, tenue = assegnato o non ancora spogliato.</footer>
+<div id="ov"><div class="pop" id="pop"></div></div>
+<script>
+const GEO = __GEO__;
+const HDATA = __HDATA__;
+const DATA = __DATA__;
+const C = {D:'var(--d)',DI:'var(--d)',R:'var(--r)',I:'var(--i)'};
+const HEX = {D:'#1d5fd6',DI:'#1d5fd6',R:'#d62828',I:'#e8b400'};
+const RANK = r => r.startsWith('Toss')?0:r.startsWith('Lean')?1:r.startsWith('Likely')?2:3;
+const LIVE = DATA.mode==='live';
+const GDATA = __GDATA__;
+const GLIVE = GDATA.mode==='live';
+for(const s of Object.values(DATA.states)) if(s.race) s.race._mode=DATA.mode;
+for(const r of Object.values(GDATA.races)) r._mode=GDATA.mode;
+const SMALL = {VT:[970,92],NH:[970,120],MA:[970,148],RI:[970,176],CT:[970,204],NJ:[970,232],DE:[970,260],MD:[970,288]};
+const NUDGE = {FL:[14,8],LA:[-10,-6],MI:[8,10],KY:[6,2],ID:[0,18],CA:[-8,8],HI:[10,-8],NY:[6,4],VA:[8,4],WV:[-2,4],SC:[4,0],OK:[12,0],TX:[6,0],MN:[-6,10],NC:[8,2],TN:[0,1],WA:[0,2]};
+const svg = document.getElementById('map');
+const NS='http://www.w3.org/2000/svg';
+const el=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||svg).appendChild(e);return e};
+const fmt=v=>String(v).replace('.',',');
+document.getElementById('upd').textContent=DATA.aggiornato;
+document.getElementById('phase').innerHTML=LIVE?'<span class="live-dot"></span>Spoglio in diretta':'Fase pre-elettorale · ultimi sondaggi';
+
+// helpers on races
+const partyOf=(r,name)=>{const c=r.cand.find(x=>x[1]===name);return c?c[0]:null};
+const hasLive=r=>r._mode==='live'&&r.live&&r.live.scrut>0;
+function leader(r){ // party currently shown as fill
+  if(!hasLive(r)) return r.inc;
+  const e=Object.entries(r.live.v).sort((a,b)=>b[1]-a[1])[0]; return partyOf(r,e[0]);
+}
+function score(r){ // + = D/I side, - = R side
+  const v = hasLive(r)? r.live.v : (r.poll? r.poll.v : null);
+  if(v){ let rs=0,o=0; for(const [n,x] of Object.entries(v)){const p=partyOf(r,n); if(p==='R')rs=Math.max(rs,x); else o=Math.max(o,x);} return o-rs; }
+  const m=[2,6,15,30][RANK(r.rating)]; return r.inc==='R'?-m:m;
+}
+
+// seats
+const seats=[];
+for(const [ab,s] of Object.entries(DATA.states)){
+  if(s.race){ seats.push({st:ab,party:s.race.inc,up:true,name:s.race.uscente,race:s.race});
+    seats.push({st:ab,party:s.other[0],up:false,name:s.other[1]}); }
+  else s.seats.forEach(x=>seats.push({st:ab,party:x[0],up:false,name:x[1]}));
+}
+const cur=q=>q.up?leader(q.race):(q.party==='DI'?'D':q.party);
+
+// counts
+(function(){
+  const n={D:0,R:0,I:0}, el={D:0,R:0,I:0};
+  seats.forEach(q=>{const p=cur(q);n[p==='DI'?'D':p]++; if(q.up&&LIVE&&q.race.live&&q.race.live.called)el[p]++;});
+  const kept={D:0,R:0}; seats.forEach(q=>{if(!q.up){kept[q.party==='R'?'R':'D']++;}});
+  document.getElementById('cD').textContent=n.D; document.getElementById('cR').textContent=n.R; document.getElementById('cI').textContent=n.I;
+  const nDI=seats.filter(s=>s.party==='DI').length;
+  if(LIVE){
+    document.getElementById('cDsub').textContent=`${el.D} eletti`; document.getElementById('cRsub').textContent=`${el.R} eletti`;
+    document.getElementById('cIsub').textContent=`${el.I} eletti`;
+    if(n.I>0) document.getElementById('colI').style.display='block';
+    const nCalled=seats.filter(q=>q.up&&q.race.live&&q.race.live.called).length;
+    document.getElementById('mid').innerHTML=`Proiezione con i vantaggi attuali<br>${nCalled}/35 seggi assegnati`;
+  } else {
+    document.getElementById('cDsub').textContent=`(${n.D-nDI} + ${nDI} indipendenti)`;
+    const upD=seats.filter(s=>s.up&&s.party==='D').length, upR=seats.filter(s=>s.up&&s.party==='R').length;
+    document.getElementById('mid').innerHTML=`35 seggi in palio<br><b style="color:var(--d)">${upD}</b> dem · <b style="color:var(--r)">${upR}</b> rep`;
+  }
+  const c=document.getElementById('ctrl');
+  if(LIVE){
+    if(n.R>=50){c.textContent='Repubblicani in vantaggio per il controllo del Senato';c.style.background='#fbe3e3';c.style.color='var(--r)';}
+    else if(n.D>=51){c.textContent='Democratici in vantaggio per il controllo del Senato';c.style.background='#e1eafb';c.style.color='var(--d)';}
+    else {c.textContent='Controllo del Senato in bilico: decisivi gli indipendenti';c.style.background='#fbf3d6';c.style.color='#8a6a00';}
+  } else c.style.display='none';
+})();
+
+// map
+const gS=el('g',{});
+for(const [f,g] of Object.entries(GEO.states)){ if(f==='11')continue; el('path',{d:g.d,class:'st'},gS); }
+el('path',{d:GEO.borders,fill:'none',stroke:'#fff','stroke-width':1},gS);
+const gQ=el('g',{});
+const S=matchMedia('(max-width:760px)').matches?18:11,G=2;
+for(const [ab,s] of Object.entries(DATA.states)){
+  const geo=GEO.states[s.fips]; let [x,y]=geo.c;
+  const n=NUDGE[ab]; if(n){x+=n[0];y+=n[1];}
+  const mine=seats.filter(q=>q.st===ab).sort((a,b)=>b.up-a.up);
+  let bx=x-S-G/2, by=y-S/2;
+  if(SMALL[ab]){
+    const [lx,ly]=SMALL[ab];
+    el('path',{d:`M${x},${y} L${lx-8},${ly}`,class:'lead'},gQ);
+    el('circle',{cx:x,cy:y,r:1.8,fill:'#9a958a'},gQ);
+    bx=lx; by=ly-S/2;
+    el('text',{x:lx+2*S+G+5,y:ly+(S>11?6:4),class:'lbl',style:S>11?'font-size:17px':''},gQ).textContent=ab;
+  }
+  mine.forEach((q,i)=>{
+    const live=q.up&&hasLive(q.race);
+    if(q.up&&S>11){const h=el('rect',{x:bx+i*(S+G)-8,y:by-8,width:S+16,height:S+16,class:'hit'},gQ);h.addEventListener('click',()=>openPop(ab));}
+    const sw=live?(S>11?3:2):null;
+    const a={x:bx+i*(S+G),y:by,width:S,height:S,rx:1.5,fill:HEX[cur(q)],'fill-opacity':q.up?1:.28,class:'sq'+(q.up?' up':'')};
+    if(live){const o=S>11?3:2;el('rect',{x:a.x-o,y:a.y-o,width:S+2*o,height:S+2*o,rx:2.5,fill:'none',stroke:HEX[q.race.inc],'stroke-width':S>11?2.4:1.6,'pointer-events':'none'},gQ);}
+    const r=el('rect',a,gQ);
+    el('title',{},r).textContent=`${s.it} — ${q.up?(live?'spoglio in corso':'in rinnovo'):q.name}`;
+    if(q.up){ r.addEventListener('click',()=>openPop(ab));
+      if(LIVE&&q.race.live&&q.race.live.called){const t=el('text',{x:bx+i*(S+G)+S/2,y:by+S*0.78,'text-anchor':'middle',fill:'#fff','font-size':S*0.85,'font-weight':700,'pointer-events':'none'},gQ);t.textContent='✓';}
+    }
+  });
+}
+
+// bars: 1 = composizione attuale, 2 = proiezione / live
+function projLeader(r){ if(hasLive(r)) return leader(r); if(r.poll){const e=Object.entries(r.poll.v).sort((x,y)=>y[1]-x[1])[0]; return partyOf(r,e[0]);} return r.inc; }
+function fillBar(id,list,colorOf,ring){
+  const bar=document.getElementById(id);
+  list.forEach(q=>{
+    const d=document.createElement('div');d.className='s'+(q.up?' up':'');
+    const p=colorOf(q); d.style.background=HEX[p];if(!q.up)d.style.opacity=.28;
+    if(ring&&q.up&&hasLive(q.race)) d.style.boxShadow=`inset 0 0 0 2px ${HEX[q.race.inc]}`;
+    d.title=`${DATA.states[q.st].it} — ${q.up?'in rinnovo':q.name}`;
+    if(q.up)d.onclick=()=>openPop(q.st);
+    bar.appendChild(d);
+  });
+}
+{
+  const rk=q=>RANK(q.race.rating);
+  const cur1=[...seats.filter(q=>(q.party==='D'||q.party==='DI')&&!q.up), ...seats.filter(q=>q.party==='D'&&q.up).sort((a,b)=>rk(b)-rk(a)),
+       ...seats.filter(q=>q.party==='R'&&q.up).sort((a,b)=>rk(a)-rk(b)), ...seats.filter(q=>q.party==='R'&&!q.up)];
+  fillBar('bar',cur1,q=>q.party,false);
+  const up=seats.filter(q=>q.up).sort((a,b)=>score(b.race)-score(a.race));
+  const pr=[...seats.filter(q=>!q.up&&q.party!=='R'),...up,...seats.filter(q=>!q.up&&q.party==='R')];
+  fillBar('bar2',pr,q=>q.up?projLeader(q.race):q.party,true);
+  const n={D:0,R:0,I:0}; seats.forEach(q=>{const p=q.up?projLeader(q.race):(q.party==='R'?'R':'D'); n[p]++;});
+  document.getElementById('barT').textContent='Composizione attuale';
+  document.getElementById('barT2').innerHTML=(LIVE?'<span class="live-dot"></span>Live: ':'Proiezione (sondaggi): ')+`<b style="color:var(--d)">${n.D}</b>`+(n.I?` · <b style="color:#b38a00">${n.I}</b>`:'')+` · <b style="color:var(--r)">${n.R}</b>`;
+}
+
+// popup
+const ov=document.getElementById('ov'),pop=document.getElementById('pop');
+const PN={D:'Dem',R:'Rep',I:'Ind'};
+function rows(r,v,winner){
+  let h='';
+  r.cand.slice().sort((a,b)=>(v[b[1]]??-1)-(v[a[1]]??-1)).forEach(([pt,nm])=>{
+    const x=v[nm];
+    h+=`<div class="cand"><div class="top"><span>${nm} <span style="color:${C[pt]};font-weight:700">(${pt})</span>${winner===nm?'<span class="chip win">✓ Eletto</span>':''}</span><b>${x!=null?fmt(x)+'%':'—'}</b></div>
+    <div class="track"><div style="width:${x!=null?x:0}%;background:${C[pt]}"></div></div></div>`;
+  });
+  return h;
+}
+function openPop(ab,isG){
+  const s=isG?{it:DATA.states[ab].it,race:GDATA.races[ab]}:DATA.states[ab],r=s.race,p=r.poll,L=r.live,LV=r._mode==='live';
+  let h=`<button class="x" aria-label="Chiudi">×</button><h2>${s.it}${r.special?'<span class="chip">speciale</span>':''}<span class="chip">${r.rating}</span></h2>
+  <div class="meta">${isG?'Governatore attuale':'Seggio attuale'}: <b style="color:${C[r.inc]}">${PN[r.inc]}</b> · ${r.uscente}<br>Chiusura seggi: <b>${r.close}</b> (ora italiana)</div>`;
+  if(LV&&L&&L.scrut>0){
+    const w=L.called?Object.entries(L.v).sort((a,b)=>b[1]-a[1])[0][0]:null;
+    h+=`<div style="font-size:13px;font-weight:600;margin-bottom:4px"><span class="live-dot"></span>Spoglio in diretta</div>`;
+    h+=rows(r,L.v,w);
+    h+=`<div class="track" style="height:6px;margin-top:12px"><div style="width:${L.scrut}%;background:#1c1c1c"></div></div>
+    <div class="src">Schede scrutinate: <b>${fmt(L.scrut)}%</b> · aggiornato alle <b>${L.agg}</b></div>`;
+    if(p) h+=`<div class="src" style="border:0;padding-top:2px">Ultimo sondaggio pre-voto: ${p.src}, ${p.date}</div>`;
+  } else if(p){
+    if(LV) h+=`<div class="nopoll">Spoglio non ancora iniziato.</div>`;
+    h+=rows(r,p.v,null);
+    h+=`<div class="src">Ultimo sondaggio: <b>${p.src}</b> · ${p.date} 2026 · ${p.n}</div>`;
+  } else {
+    r.cand.forEach(([pt,nm])=>h+=`<div class="cand"><div class="top"><span>${nm} <span style="color:${C[pt]};font-weight:700">(${pt})</span></span></div></div>`);
+    h+=`<div class="nopoll">${LV?'Spoglio non ancora iniziato. ':''}Nessun sondaggio pubblico recente.</div>`;
+  }
+  pop.innerHTML=h; ov.classList.add('on');
+  pop.querySelector('.x').onclick=close;
+}
+function close(){ov.classList.remove('on')}
+ov.addEventListener('click',e=>{if(e.target===ov)close()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+
+// ===== tabs
+const tabs=document.querySelectorAll('nav button[data-tab]');
+function showTab(n){ if(!['senato','camera','governatori'].includes(n))n='senato';
+  tabs.forEach(b=>b.classList.toggle('on',b.dataset.tab===n));
+  document.getElementById('p-senato').style.display=n==='senato'?'':'none';
+  for(const k of ['camera','governatori']) document.getElementById('p-'+k).style.display=n===k?'':'none';
+  for(const [k,f] of [['senato','s'],['camera','c'],['governatori','g']]) document.getElementById('foot-'+f).style.display=n===k?'':'none';
+  const live={senato:LIVE,camera:HLIVE,governatori:GLIVE}[n];
+  document.getElementById('upd').textContent={senato:DATA,camera:HDATA,governatori:GDATA}[n].aggiornato;
+  document.getElementById('phase').innerHTML=live?'<span class="live-dot"></span>Spoglio in diretta':{senato:'Fase pre-elettorale · ultimi sondaggi',camera:'Fase pre-elettorale · seggi attuali e proiezione',governatori:'Fase pre-elettorale · ultimi sondaggi'}[n];
+}
+tabs.forEach(b=>b.onclick=()=>{location.hash=b.dataset.tab;});
+addEventListener('hashchange',()=>showTab(location.hash.slice(1)));
+
+// ===== CAMERA
+const HLIVE=HDATA.mode==='live';
+function hseats(ab){ // returns ordered list of {p, bright, kind}
+  const s=HDATA.states[ab], L=s.live, out=[];
+  if(HLIVE&&L&&L.started){
+    const cD=L.called.D, cR=L.called.R, lD=L.lead.D, lR=L.lead.R; // lead = leading but not called
+    const rest=s.n-cD-cR-lD-lR; // not started districts: projection
+    // projection for rest: use pre split proportionally to remaining
+    const pD=Math.max(0,Math.min(rest,(s.safeD+s.tossD)-cD-lD)), pR=rest-pD;
+    for(let i=0;i<cD;i++)out.push({p:'D',b:false,k:'cD'});
+    for(let i=0;i<pD;i++)out.push({p:'D',b:false,k:'pD'});
+    for(let i=0;i<lD;i++)out.push({p:'D',b:true,k:'lD'});
+    for(let i=0;i<lR;i++)out.push({p:'R',b:true,k:'lR'});
+    for(let i=0;i<pR;i++)out.push({p:'R',b:false,k:'pR'});
+    for(let i=0;i<cR;i++)out.push({p:'R',b:false,k:'cR'});
+  } else {
+    for(let i=0;i<s.safeD;i++)out.push({p:'D',b:false,k:'sD'});
+    for(let i=0;i<s.tossD;i++)out.push({p:'D',b:true,k:'tD'});
+    for(let i=0;i<s.tossR;i++)out.push({p:'R',b:true,k:'tR'});
+    for(let i=0;i<s.safeR;i++)out.push({p:'R',b:false,k:'sR'});
+  }
+  return out;
+}
+const HEXV='#b9b4a8';
+function hcur(ab){ const c=HDATA.states[ab].cur, o=[];
+  for(let i=0;i<c.D-c.bD;i++)o.push({p:'D',b:false,k:'sD'});
+  for(let i=0;i<c.bD;i++)o.push({p:'D',b:true,k:'tD'});
+  for(let i=0;i<c.V;i++)o.push({p:'V',b:false,k:'V'});
+  for(let i=0;i<c.bR;i++)o.push({p:'R',b:true,k:'tR'});
+  for(let i=0;i<c.R-c.bR;i++)o.push({p:'R',b:false,k:'sR'});
+  return o; }
+const hx=p=>p==='V'?HEXV:HEX[p];
+(function(){
+  const svgH=document.getElementById('mapH');
+  const eh=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||svgH).appendChild(e);return e};
+  const byF={}; for(const [ab,s] of Object.entries(DATA.states)) byF[s.fips]=ab;
+  const gS=eh('g',{});
+  for(const [f,g] of Object.entries(GEO.states)){ if(f==='11')continue; const ab=byF[f];
+    const p=eh('path',{d:g.d,class:'sth'},gS); p.addEventListener('click',()=>openH(ab)); }
+  const gQ=eh('g',{'pointer-events':'none'});
+  const s=7,g=1.4;
+  const HSMALL={VT:[985,70],NH:[985,92],MA:[985,114],RI:[985,136],CT:[985,158],NJ:[985,180],DE:[985,202],MD:[985,224]};
+  const HN={FL:[22,6],LA:[-14,-4],MI:[10,14],CA:[-10,10],ID:[0,20],HI:[12,-6],NY:[10,6],TX:[8,0],MN:[-6,10],OK:[14,0],KY:[8,2],VA:[10,4],WV:[-2,4],NC:[10,2]};
+  let pD=0,pR=0,cD=0,cR=0;
+  for(const [ab,st] of Object.entries(HDATA.states)){
+    const geo=GEO.states[DATA.states[ab].fips]; let [x,y]=geo.c; const nn=HN[ab]; if(nn){x+=nn[0];y+=nn[1];}
+    const now=hcur(ab), pro=hseats(ab); pro.forEach(q=>q.p==='D'?pD++:pR++);
+    const started=HLIVE&&st.live&&st.live.started;
+    if(started){cD+=st.live.called.D;cR+=st.live.called.R;}
+    let cols=Math.ceil(Math.sqrt(st.n*1.7)); if(HSMALL[ab]) cols=st.n;
+    const rws=Math.ceil(st.n/cols);
+    let x0=x-(cols*(s+g)-g)/2, y0=y-(rws*(s+g)-g)/2;
+    if(HSMALL[ab]){const [lx,ly]=HSMALL[ab]; eh('path',{d:`M${x},${y} L${lx-6},${ly}`,class:'lead'},gQ); eh('circle',{cx:x,cy:y,r:1.6,fill:'#9a958a'},gQ);
+      eh('text',{x:lx,y:ly+4,class:'lbl'},gQ).textContent=ab; x0=lx+24; y0=ly-s/2;
+      const hit=eh('rect',{x:lx-4,y:ly-10,width:24+cols*(s+g)+6,height:20,fill:'transparent','pointer-events':'all',style:'cursor:pointer'},svgH); hit.addEventListener('click',()=>openH(ab));}
+    now.forEach((q,i)=>{ const c=i%cols, r=Math.floor(i/cols), X=x0+c*(s+g), Y=y0+r*(s+g);
+      if(started){ const L=pro[i]; eh('rect',{x:X-1,y:Y-1,width:s+2,height:s+2,rx:1.5,fill:'none',stroke:hx(q.p),'stroke-width':1.2},gQ);
+        eh('rect',{x:X+.6,y:Y+.6,width:s-1.2,height:s-1.2,rx:.8,fill:hx(L.p),'fill-opacity':L.b?1:.55},gQ); }
+      else eh('rect',{x:X,y:Y,width:s,height:s,rx:1,fill:hx(q.p),'fill-opacity':q.b?1:(q.p==='V'?1:.55)},gQ); });
+  }
+  const A=HDATA.attuale;
+  if(HLIVE){
+    document.getElementById('hD').textContent=pD; document.getElementById('hR').textContent=pR;
+    document.getElementById('hDsub').textContent=`${cD} eletti`; document.getElementById('hRsub').textContent=`${cR} eletti`;
+    document.getElementById('hmid').innerHTML=`Proiezione attuale<br>${cD+cR}/435 assegnati`;
+    const c=document.getElementById('hctrl');
+    if(pD>=218){c.textContent='Democratici in vantaggio per il controllo della Camera';c.style.background='#e1eafb';c.style.color='var(--d)';}
+    else if(pR>=218){c.textContent='Repubblicani in vantaggio per il controllo della Camera';c.style.background='#fbe3e3';c.style.color='var(--r)';}
+  } else {
+    document.getElementById('hD').textContent=A.D; document.getElementById('hR').textContent=A.R;
+    document.getElementById('hDsub').textContent=''; document.getElementById('hRsub').textContent='';
+    document.getElementById('hmid').innerHTML=`Tutti i 435 seggi in palio<br>${A.V} seggi vacanti`;
+    document.getElementById('hctrl').style.display='none';
+  }
+  // bars
+  const mk=(id,list)=>{const bar=document.getElementById(id); list.forEach(q=>{const d=document.createElement('div');d.className='s';d.style.background=hx(q.p);if(!q.b&&q.p!=='V')d.style.opacity=.55;d.title=DATA.states[q.st].it;bar.appendChild(d);});};
+  const c1=[]; for(const ab of Object.keys(HDATA.states)) hcur(ab).forEach(q=>c1.push({...q,st:ab}));
+  const o1=['sD','tD','V','tR','sR']; c1.sort((a,b)=>o1.indexOf(a.k)-o1.indexOf(b.k)); mk('hbar',c1);
+  const order=HLIVE?['cD','pD','sD','tD','lD','lR','tR','sR','pR','cR']:['sD','tD','tR','sR'];
+  const c2=[]; for(const ab of Object.keys(HDATA.states)) hseats(ab).forEach(q=>c2.push({...q,st:ab}));
+  c2.sort((a,b)=>order.indexOf(a.k)-order.indexOf(b.k)); mk('hbar2',c2);
+  document.getElementById('hbarT2').innerHTML=(HLIVE?'<span class="live-dot"></span>Live: ':'Proiezione: ')+`<b style="color:var(--d)">${pD}</b> · <b style="color:var(--r)">${pR}</b>`;
+})();
+function openH(ab){
+  const s=HDATA.states[ab], it=DATA.states[ab].it, L=s.live;
+  let h=`<button class="x" aria-label="Chiudi">×</button><h2>${it}<span class="chip">${s.n} ${s.n===1?'seggio':'seggi'}</span></h2><div class="meta">Oggi: <b style="color:var(--d)">${s.cur.D}</b> dem · <b style="color:var(--r)">${s.cur.R}</b> rep${s.cur.V?` · ${s.cur.V} vacante`:''}</div>`;
+  const row=(lab,d,r)=>`<div class="cand"><div class="top"><span>${lab}</span><b><span style="color:var(--d)">${d}</span> – <span style="color:var(--r)">${r}</span></b></div>
+    <div class="track" style="display:flex"><div style="width:${d/s.n*100}%;background:var(--d)"></div><div style="width:${r/s.n*100}%;background:var(--r)"></div></div></div>`;
+  if(HLIVE&&L&&L.started){
+    const q=hseats(ab), D=q.filter(x=>x.p==='D').length, R=s.n-D;
+    h+=`<div style="font-size:13px;font-weight:600;margin:6px 0 4px"><span class="live-dot"></span>Spoglio in diretta</div>`;
+    h+=row('Proiezione attuale (Dem – Rep)',D,R);
+    h+=`<div class="src">Assegnati: <b style="color:var(--d)">${L.called.D}</b> dem · <b style="color:var(--r)">${L.called.R}</b> rep<br>In vantaggio: <b style="color:var(--d)">${L.lead.D}</b> dem · <b style="color:var(--r)">${L.lead.R}</b> rep<br>Aggiornato alle <b>${L.agg}</b></div>`;
+  } else {
+    const D=s.safeD+s.tossD, R=s.safeR+s.tossR;
+    h+=`<div class="meta" style="margin-bottom:0">${HLIVE?'Spoglio non ancora iniziato · ':''}Proiezione pre-voto</div>`;
+    h+=row('Seggi previsti (Dem – Rep)',D,R);
+    const t=s.tossD+s.tossR;
+    const net=D-s.cur.D;
+    h+=`<div class="src">Seggi oggi a rischio: <b style="color:var(--d)">${s.cur.bD}</b> dem · <b style="color:var(--r)">${s.cur.bR}</b> rep<br>Da oggi alla proiezione: dem <b style="color:var(--d)">${s.cur.D} → ${D}</b> · rep <b style="color:var(--r)">${s.cur.R} → ${R}</b>${t?` · in bilico: ${t}`:''}</div>`;
+  }
+  pop.innerHTML=h; ov.classList.add('on'); pop.querySelector('.x').onclick=close;
+}
+
+// ===== GOVERNATORI
+(function(){
+  const svgG=document.getElementById('mapG');
+  const eg=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||svgG).appendChild(e);return e};
+  const byF={}; for(const [ab,s] of Object.entries(DATA.states)) byF[s.fips]=ab;
+  const gfill=ab=>{const r=GDATA.races[ab]; if(r) return HEX[hasLive(r)?leader(r):r.inc]; return HEX[GDATA.notup[ab][0]];};
+  const gS=eg('g',{}), gT=eg('g',{}), gL=eg('g',{});
+  const ring=[];
+  for(const [f,g] of Object.entries(GEO.states)){ if(f==='11')continue; const ab=byF[f], r=GDATA.races[ab];
+    const p=eg('path',{d:g.d,class:'stg'+(r?' up':''),fill:gfill(ab),'fill-opacity':r?1:.28},gS);
+    if(r){ p.addEventListener('click',()=>openPop(ab,true)); eg('title',{},p).textContent=DATA.states[ab].it;
+      if(hasLive(r)) ring.push([g.d,HEX[r.inc]]);
+      if(r._mode==='live'&&r.live&&r.live.called){const [x,y]=g.c; const t=eg('text',{x,y:y+6,'text-anchor':'middle',fill:'#fff','font-size':18,'font-weight':800,'pointer-events':'none',stroke:'rgba(0,0,0,.25)','stroke-width':.6},gL); t.textContent='✓';}
+    } }
+  // live: bordo spesso col colore dell'uscente (clip interno)
+  ring.forEach(([d,c],i)=>{const cp=eg('clipPath',{id:'gc'+i},gT); eg('path',{d},cp); eg('path',{d,fill:'none',stroke:c,'stroke-width':6,'clip-path':`url(#gc${i})`,'pointer-events':'none'},gT);});
+  // tiranti stati piccoli
+  const GS={VT:[985,92],NH:[985,120],MA:[985,148],RI:[985,176],CT:[985,204],NJ:[985,232],DE:[985,260],MD:[985,288]};
+  const big=matchMedia('(max-width:760px)').matches; const B=big?20:14;
+  for(const [ab,[lx,ly]] of Object.entries(GS)){
+    const [x,y]=GEO.states[DATA.states[ab].fips].c, r=GDATA.races[ab];
+    eg('path',{d:`M${x},${y} L${lx-6},${ly}`,class:'lead'},gL); eg('circle',{cx:x,cy:y,r:1.8,fill:'#9a958a'},gL);
+    const a={x:lx,y:ly-B/2,width:B,height:B,rx:2,fill:gfill(ab),'fill-opacity':r?1:.28};
+    if(r&&hasLive(r)){a.stroke=HEX[r.inc];a['stroke-width']=3;}
+    const sq=eg('rect',a,gL);
+    eg('text',{x:lx+B+5,y:ly+(big?6:4),class:'lbl',style:big?'font-size:17px':''},gL).textContent=ab;
+    if(r){ sq.style.cursor='pointer'; sq.addEventListener('click',()=>openPop(ab,true));
+      const h=eg('rect',{x:lx-6,y:ly-14,width:B+40,height:28,fill:'transparent',style:'cursor:pointer'},gL); h.addEventListener('click',()=>openPop(ab,true)); }
+  }
+  // conteggi
+  const n={D:0,R:0,I:0}, el={D:0,R:0,I:0};
+  for(const v of Object.values(GDATA.notup)) n[v[0]]++;
+  for(const r of Object.values(GDATA.races)){ const p=hasLive(r)?leader(r):r.inc; n[p]++; if(GLIVE&&r.live&&r.live.called) el[p]++; }
+  if(GLIVE){
+    const called=Object.values(GDATA.races).filter(r=>r.live&&r.live.called).length;
+    document.getElementById('gD').textContent=n.D; document.getElementById('gR').textContent=n.R; document.getElementById('gI').textContent=n.I;
+    document.getElementById('gDsub').textContent=`${el.D} eletti`; document.getElementById('gRsub').textContent=`${el.R} eletti`; document.getElementById('gIsub').textContent=`${el.I} eletti`;
+    if(n.I) document.getElementById('gcolI').style.display='block';
+    document.getElementById('gmid').innerHTML=`Proiezione con i vantaggi attuali<br>${called}/36 assegnati`;
+    const c=document.getElementById('gctrl');
+    if(n.D>n.R){c.textContent='Democratici in vantaggio nel numero di governatori';c.style.background='#e1eafb';c.style.color='var(--d)';}
+    else if(n.R>n.D){c.textContent='Repubblicani in vantaggio nel numero di governatori';c.style.background='#fbe3e3';c.style.color='var(--r)';}
+    else {c.textContent='Parità nel numero di governatori';c.style.background='#fbf3d6';c.style.color='#8a6a00';}
+  } else {
+    document.getElementById('gD').textContent=n.D; document.getElementById('gR').textContent=n.R;
+    const uD=Object.values(GDATA.races).filter(r=>r.inc==='D').length, uR=36-uD;
+    document.getElementById('gmid').innerHTML=`36 governatori al voto<br><b style="color:var(--d)">${uD}</b> dem · <b style="color:var(--r)">${uR}</b> rep`;
+    document.getElementById('gctrl').style.display='none';
+  }
+})();
+showTab(location.hash.slice(1));
+</script>
+</body>
+</html>

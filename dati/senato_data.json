@@ -1,0 +1,1362 @@
+{
+ "aggiornato": "1 novembre 2026, 21:00",
+ "states": {
+  "AL": {
+   "fips": "01",
+   "it": "Alabama",
+   "other": [
+    "R",
+    "Katie Britt"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Tommy Tuberville (non si ricandida, corre per governatore)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Barry Moore"
+     ],
+     [
+      "D",
+      "Everett Wess"
+     ]
+    ],
+    "poll": {
+     "src": "Blueprint Polling",
+     "date": "22–24 ott",
+     "n": "695 LV",
+     "v": {
+      "Barry Moore": 48,
+      "Everett Wess": 40
+     }
+    },
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "AK": {
+   "fips": "02",
+   "it": "Alaska",
+   "other": [
+    "R",
+    "Lisa Murkowski"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Dan Sullivan (si ricandida)",
+    "rating": "Toss-up",
+    "cand": [
+     [
+      "D",
+      "Mary Peltola"
+     ],
+     [
+      "R",
+      "Dan Sullivan"
+     ]
+    ],
+    "poll": {
+     "src": "Alaska Survey Research",
+     "date": "29 ott",
+     "n": "1.326 LV",
+     "v": {
+      "Mary Peltola": 48,
+      "Dan Sullivan": 46
+     }
+    },
+    "close": "07:00",
+    "live": null
+   }
+  },
+  "AZ": {
+   "fips": "04",
+   "it": "Arizona",
+   "seats": [
+    [
+     "D",
+     "Mark Kelly"
+    ],
+    [
+     "D",
+     "Ruben Gallego"
+    ]
+   ]
+  },
+  "AR": {
+   "fips": "05",
+   "it": "Arkansas",
+   "other": [
+    "R",
+    "John Boozman"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Tom Cotton (si ricandida)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Tom Cotton"
+     ],
+     [
+      "D",
+      "Hallie Shoffner"
+     ]
+    ],
+    "poll": {
+     "src": "GrayHouse",
+     "date": "27–28 ott",
+     "n": "509 LV",
+     "v": {
+      "Tom Cotton": 55,
+      "Hallie Shoffner": 39
+     }
+    },
+    "close": "02:30",
+    "live": null
+   }
+  },
+  "CA": {
+   "fips": "06",
+   "it": "California",
+   "seats": [
+    [
+     "D",
+     "Alex Padilla"
+    ],
+    [
+     "D",
+     "Adam Schiff"
+    ]
+   ]
+  },
+  "CO": {
+   "fips": "08",
+   "it": "Colorado",
+   "other": [
+    "D",
+    "Michael Bennet"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "John Hickenlooper (si ricandida)",
+    "rating": "Solid D",
+    "cand": [
+     [
+      "D",
+      "John Hickenlooper"
+     ],
+     [
+      "R",
+      "Mark Baisley"
+     ]
+    ],
+    "poll": null,
+    "close": "03:00",
+    "live": null
+   }
+  },
+  "CT": {
+   "fips": "09",
+   "it": "Connecticut",
+   "seats": [
+    [
+     "D",
+     "Richard Blumenthal"
+    ],
+    [
+     "D",
+     "Chris Murphy"
+    ]
+   ]
+  },
+  "DE": {
+   "fips": "10",
+   "it": "Delaware",
+   "other": [
+    "D",
+    "Lisa Blunt Rochester"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Chris Coons (si ricandida)",
+    "rating": "Solid D",
+    "cand": [
+     [
+      "D",
+      "Chris Coons"
+     ],
+     [
+      "R",
+      "Michael Katz"
+     ]
+    ],
+    "poll": null,
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "FL": {
+   "fips": "12",
+   "it": "Florida",
+   "other": [
+    "R",
+    "Rick Scott"
+   ],
+   "race": {
+    "inc": "R",
+    "special": true,
+    "uscente": "Ashley Moody (nominata, si candida) — elezione speciale per il seggio di Marco Rubio",
+    "rating": "Likely R",
+    "cand": [
+     [
+      "R",
+      "Ashley Moody"
+     ],
+     [
+      "D",
+      "Angie Nixon"
+     ]
+    ],
+    "poll": {
+     "src": "Stetson University",
+     "date": "30 ott",
+     "n": "852 RV",
+     "v": {
+      "Ashley Moody": 49,
+      "Angie Nixon": 45
+     }
+    },
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "GA": {
+   "fips": "13",
+   "it": "Georgia",
+   "other": [
+    "D",
+    "Raphael Warnock"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Jon Ossoff (si ricandida)",
+    "rating": "Likely D",
+    "cand": [
+     [
+      "D",
+      "Jon Ossoff"
+     ],
+     [
+      "R",
+      "Mike Collins"
+     ]
+    ],
+    "poll": {
+     "src": "UGA SPIA / Atlanta Journal-Constitution",
+     "date": "7–15 ott",
+     "n": "1.000 LV",
+     "v": {
+      "Jon Ossoff": 48,
+      "Mike Collins": 40
+     }
+    },
+    "close": "01:00",
+    "live": null
+   }
+  },
+  "HI": {
+   "fips": "15",
+   "it": "Hawaii",
+   "seats": [
+    [
+     "D",
+     "Brian Schatz"
+    ],
+    [
+     "D",
+     "Mazie Hirono"
+    ]
+   ]
+  },
+  "ID": {
+   "fips": "16",
+   "it": "Idaho",
+   "other": [
+    "R",
+    "Mike Crapo"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Jim Risch (si ricandida)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Jim Risch"
+     ],
+     [
+      "I",
+      "Todd Achilles"
+     ]
+    ],
+    "poll": {
+     "src": "The Bullfinch Group",
+     "date": "4–7 ago",
+     "n": "608 LV",
+     "v": {
+      "Jim Risch": 34,
+      "Todd Achilles": 30
+     }
+    },
+    "close": "05:00",
+    "live": null
+   }
+  },
+  "IL": {
+   "fips": "17",
+   "it": "Illinois",
+   "other": [
+    "D",
+    "Tammy Duckworth"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Dick Durbin (non si ricandida)",
+    "rating": "Solid D",
+    "cand": [
+     [
+      "D",
+      "Juliana Stratton"
+     ],
+     [
+      "R",
+      "Don Tracy"
+     ]
+    ],
+    "poll": {
+     "src": "ActiVote",
+     "date": "30 ott",
+     "n": "400 LV",
+     "v": {
+      "Juliana Stratton": 55.6,
+      "Don Tracy": 44.4
+     }
+    },
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "IN": {
+   "fips": "18",
+   "it": "Indiana",
+   "seats": [
+    [
+     "R",
+     "Todd Young"
+    ],
+    [
+     "R",
+     "Jim Banks"
+    ]
+   ]
+  },
+  "IA": {
+   "fips": "19",
+   "it": "Iowa",
+   "other": [
+    "R",
+    "Chuck Grassley"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Joni Ernst (non si ricandida)",
+    "rating": "Toss-up",
+    "cand": [
+     [
+      "R",
+      "Ashley Hinson"
+     ],
+     [
+      "D",
+      "Josh Turek"
+     ]
+    ],
+    "poll": {
+     "src": "co/efficient (R)",
+     "date": "28 ott",
+     "n": "1.020 LV",
+     "v": {
+      "Ashley Hinson": 48,
+      "Josh Turek": 46
+     }
+    },
+    "close": "03:00",
+    "live": null
+   }
+  },
+  "KS": {
+   "fips": "20",
+   "it": "Kansas",
+   "other": [
+    "R",
+    "Jerry Moran"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Roger Marshall (si ricandida)",
+    "rating": "Toss-up",
+    "cand": [
+     [
+      "D",
+      "Adam Hamilton"
+     ],
+     [
+      "R",
+      "Roger Marshall"
+     ]
+    ],
+    "poll": {
+     "src": "Emerson College",
+     "date": "28 ott",
+     "n": "800 LV",
+     "v": {
+      "Adam Hamilton": 50,
+      "Roger Marshall": 47
+     }
+    },
+    "close": "03:00",
+    "live": null
+   }
+  },
+  "KY": {
+   "fips": "21",
+   "it": "Kentucky",
+   "other": [
+    "R",
+    "Rand Paul"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Mitch McConnell (non si ricandida)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Andy Barr"
+     ],
+     [
+      "D",
+      "Charles Booker"
+     ]
+    ],
+    "poll": {
+     "src": "Interno campagna Booker (D)",
+     "date": "set",
+     "n": "600 LV",
+     "v": {
+      "Andy Barr": 49,
+      "Charles Booker": 40
+     }
+    },
+    "close": "01:00",
+    "live": null
+   }
+  },
+  "LA": {
+   "fips": "22",
+   "it": "Louisiana",
+   "other": [
+    "R",
+    "John Kennedy"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Bill Cassidy (sconfitto alle primarie)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Julia Letlow"
+     ],
+     [
+      "D",
+      "Jamie Davis"
+     ]
+    ],
+    "poll": {
+     "src": "Hart Research (D)",
+     "date": "29 ott",
+     "n": "502 LV",
+     "v": {
+      "Julia Letlow": 45,
+      "Jamie Davis": 45
+     }
+    },
+    "close": "03:00",
+    "live": null
+   }
+  },
+  "ME": {
+   "fips": "23",
+   "it": "Maine",
+   "other": [
+    "DI",
+    "Angus King (indipendente, vota con i Dem)"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Susan Collins (si ricandida)",
+    "rating": "Toss-up",
+    "cand": [
+     [
+      "D",
+      "Troy Jackson"
+     ],
+     [
+      "R",
+      "Susan Collins"
+     ]
+    ],
+    "poll": {
+     "src": "YouGov",
+     "date": "29 ott",
+     "n": "1.503 LV",
+     "v": {
+      "Troy Jackson": 52,
+      "Susan Collins": 47
+     }
+    },
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "MD": {
+   "fips": "24",
+   "it": "Maryland",
+   "seats": [
+    [
+     "D",
+     "Chris Van Hollen"
+    ],
+    [
+     "D",
+     "Angela Alsobrooks"
+    ]
+   ]
+  },
+  "MA": {
+   "fips": "25",
+   "it": "Massachusetts",
+   "other": [
+    "D",
+    "Elizabeth Warren"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Ed Markey (si ricandida)",
+    "rating": "Solid D",
+    "cand": [
+     [
+      "D",
+      "Ed Markey"
+     ],
+     [
+      "R",
+      "John Deaton"
+     ]
+    ],
+    "poll": {
+     "src": "UMass Lowell / YouGov",
+     "date": "7–18 ott",
+     "n": "850 LV",
+     "v": {
+      "Ed Markey": 55,
+      "John Deaton": 26
+     }
+    },
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "MI": {
+   "fips": "26",
+   "it": "Michigan",
+   "other": [
+    "D",
+    "Elissa Slotkin"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Gary Peters (non si ricandida)",
+    "rating": "Toss-up",
+    "cand": [
+     [
+      "D",
+      "Abdul El-Sayed"
+     ],
+     [
+      "R",
+      "Mike Rogers"
+     ]
+    ],
+    "poll": {
+     "src": "Rasmussen Reports (R)",
+     "date": "29 ott",
+     "n": "745 LV",
+     "v": {
+      "Abdul El-Sayed": 49,
+      "Mike Rogers": 44
+     }
+    },
+    "close": "03:00",
+    "live": null
+   }
+  },
+  "MN": {
+   "fips": "27",
+   "it": "Minnesota",
+   "other": [
+    "D",
+    "Amy Klobuchar"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Tina Smith (non si ricandida)",
+    "rating": "Lean D",
+    "cand": [
+     [
+      "D",
+      "Peggy Flanagan"
+     ],
+     [
+      "R",
+      "Michele Tafoya"
+     ]
+    ],
+    "poll": {
+     "src": "Rasmussen Reports (R)",
+     "date": "20–21 ott",
+     "n": "1.182 LV",
+     "v": {
+      "Peggy Flanagan": 48,
+      "Michele Tafoya": 45
+     }
+    },
+    "close": "03:00",
+    "live": null
+   }
+  },
+  "MS": {
+   "fips": "28",
+   "it": "Mississippi",
+   "other": [
+    "R",
+    "Roger Wicker"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Cindy Hyde-Smith (si ricandida)",
+    "rating": "Likely R",
+    "cand": [
+     [
+      "R",
+      "Cindy Hyde-Smith"
+     ],
+     [
+      "D",
+      "Scott Colom"
+     ],
+     [
+      "I",
+      "Ty Pinkins"
+     ]
+    ],
+    "poll": {
+     "src": "Change Research (D)",
+     "date": "21–22 ott",
+     "n": "LV",
+     "v": {
+      "Cindy Hyde-Smith": 43,
+      "Scott Colom": 40,
+      "Ty Pinkins": 6
+     }
+    },
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "MO": {
+   "fips": "29",
+   "it": "Missouri",
+   "seats": [
+    [
+     "R",
+     "Josh Hawley"
+    ],
+    [
+     "R",
+     "Eric Schmitt"
+    ]
+   ]
+  },
+  "MT": {
+   "fips": "30",
+   "it": "Montana",
+   "other": [
+    "R",
+    "Tim Sheehy"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Steve Daines (non si ricandida)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Kurt Alme"
+     ],
+     [
+      "I",
+      "Seth Bodnar"
+     ],
+     [
+      "D",
+      "Alani Bankhead"
+     ]
+    ],
+    "poll": {
+     "src": "Quantus Insights",
+     "date": "20 ott",
+     "n": "LV",
+     "v": {
+      "Kurt Alme": 44,
+      "Seth Bodnar": 28,
+      "Alani Bankhead": 21
+     }
+    },
+    "close": "04:00",
+    "live": null
+   }
+  },
+  "NE": {
+   "fips": "31",
+   "it": "Nebraska",
+   "other": [
+    "R",
+    "Deb Fischer"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Pete Ricketts (si ricandida)",
+    "rating": "Lean R",
+    "cand": [
+     [
+      "R",
+      "Pete Ricketts"
+     ],
+     [
+      "I",
+      "Dan Osborn"
+     ]
+    ],
+    "poll": {
+     "src": "New York Times / Siena",
+     "date": "29 ott",
+     "n": "809 LV",
+     "v": {
+      "Pete Ricketts": 49,
+      "Dan Osborn": 43
+     }
+    },
+    "close": "03:00",
+    "live": null
+   }
+  },
+  "NV": {
+   "fips": "32",
+   "it": "Nevada",
+   "seats": [
+    [
+     "D",
+     "Catherine Cortez Masto"
+    ],
+    [
+     "D",
+     "Jacky Rosen"
+    ]
+   ]
+  },
+  "NH": {
+   "fips": "33",
+   "it": "New Hampshire",
+   "other": [
+    "D",
+    "Maggie Hassan"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Jeanne Shaheen (non si ricandida)",
+    "rating": "Lean D",
+    "cand": [
+     [
+      "D",
+      "Chris Pappas"
+     ],
+     [
+      "R",
+      "John E. Sununu"
+     ]
+    ],
+    "poll": {
+     "src": "UMass Lowell",
+     "date": "29 ott",
+     "n": "LV",
+     "v": {
+      "Chris Pappas": 48,
+      "John E. Sununu": 41
+     }
+    },
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "NJ": {
+   "fips": "34",
+   "it": "New Jersey",
+   "other": [
+    "D",
+    "Andy Kim"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Cory Booker (si ricandida)",
+    "rating": "Solid D",
+    "cand": [
+     [
+      "D",
+      "Cory Booker"
+     ],
+     [
+      "R",
+      "Justin Murphy"
+     ]
+    ],
+    "poll": null,
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "NM": {
+   "fips": "35",
+   "it": "Nuovo Messico",
+   "other": [
+    "D",
+    "Martin Heinrich"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Ben Ray Luján (si ricandida)",
+    "rating": "Solid D",
+    "cand": [
+     [
+      "D",
+      "Ben Ray Luján"
+     ],
+     [
+      "R",
+      "Larry Marker"
+     ]
+    ],
+    "poll": {
+     "src": "SurveyUSA",
+     "date": "25–30 set",
+     "n": "576 LV",
+     "v": {
+      "Ben Ray Luján": 54,
+      "Larry Marker": 36
+     }
+    },
+    "close": "03:00",
+    "live": null
+   }
+  },
+  "NY": {
+   "fips": "36",
+   "it": "New York",
+   "seats": [
+    [
+     "D",
+     "Chuck Schumer"
+    ],
+    [
+     "D",
+     "Kirsten Gillibrand"
+    ]
+   ]
+  },
+  "NC": {
+   "fips": "37",
+   "it": "Carolina del Nord",
+   "other": [
+    "R",
+    "Ted Budd"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Thom Tillis (non si ricandida)",
+    "rating": "Likely D",
+    "cand": [
+     [
+      "D",
+      "Roy Cooper"
+     ],
+     [
+      "R",
+      "Michael Whatley"
+     ]
+    ],
+    "poll": {
+     "src": "Harper Polling / Carolina Journal (R)",
+     "date": "18–20 ott",
+     "n": "600 LV",
+     "v": {
+      "Roy Cooper": 49,
+      "Michael Whatley": 39
+     }
+    },
+    "close": "01:30",
+    "live": null
+   }
+  },
+  "ND": {
+   "fips": "38",
+   "it": "Dakota del Nord",
+   "seats": [
+    [
+     "R",
+     "John Hoeven"
+    ],
+    [
+     "R",
+     "Kevin Cramer"
+    ]
+   ]
+  },
+  "OH": {
+   "fips": "39",
+   "it": "Ohio",
+   "other": [
+    "R",
+    "Bernie Moreno"
+   ],
+   "race": {
+    "inc": "R",
+    "special": true,
+    "uscente": "Jon Husted (nominato, si candida) — elezione speciale per il seggio di JD Vance",
+    "rating": "Toss-up",
+    "cand": [
+     [
+      "D",
+      "Sherrod Brown"
+     ],
+     [
+      "R",
+      "Jon Husted"
+     ]
+    ],
+    "poll": {
+     "src": "ActiVote",
+     "date": "31 ott",
+     "n": "400 LV",
+     "v": {
+      "Sherrod Brown": 50.2,
+      "Jon Husted": 49.8
+     }
+    },
+    "close": "01:30",
+    "live": null
+   }
+  },
+  "OK": {
+   "fips": "40",
+   "it": "Oklahoma",
+   "other": [
+    "R",
+    "James Lankford"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Alan Armstrong (nominato, non si candida)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Kevin Hern"
+     ],
+     [
+      "D",
+      "N'Kiyla Thomas"
+     ]
+    ],
+    "poll": null,
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "OR": {
+   "fips": "41",
+   "it": "Oregon",
+   "other": [
+    "D",
+    "Ron Wyden"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Jeff Merkley (si ricandida)",
+    "rating": "Solid D",
+    "cand": [
+     [
+      "D",
+      "Jeff Merkley"
+     ],
+     [
+      "R",
+      "David Brock Smith"
+     ]
+    ],
+    "poll": null,
+    "close": "05:00",
+    "live": null
+   }
+  },
+  "PA": {
+   "fips": "42",
+   "it": "Pennsylvania",
+   "seats": [
+    [
+     "D",
+     "John Fetterman"
+    ],
+    [
+     "R",
+     "Dave McCormick"
+    ]
+   ]
+  },
+  "RI": {
+   "fips": "44",
+   "it": "Rhode Island",
+   "other": [
+    "D",
+    "Sheldon Whitehouse"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Jack Reed (si ricandida)",
+    "rating": "Solid D",
+    "cand": [
+     [
+      "D",
+      "Jack Reed"
+     ],
+     [
+      "R",
+      "Raymond McKay"
+     ]
+    ],
+    "poll": {
+     "src": "Embold Research",
+     "date": "5–8 ott",
+     "n": "815 LV",
+     "v": {
+      "Jack Reed": 55,
+      "Raymond McKay": 32
+     }
+    },
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "SC": {
+   "fips": "45",
+   "it": "Carolina del Sud",
+   "other": [
+    "R",
+    "Tim Scott"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Darline Graham (nominata, si candida)",
+    "rating": "Lean R",
+    "cand": [
+     [
+      "R",
+      "Darline Graham"
+     ],
+     [
+      "D",
+      "Annie Andrews"
+     ]
+    ],
+    "poll": {
+     "src": "Patinkin Research (D)",
+     "date": "29 ott",
+     "n": "500 LV",
+     "v": {
+      "Annie Andrews": 48,
+      "Darline Graham": 43
+     }
+    },
+    "close": "01:00",
+    "live": null
+   }
+  },
+  "SD": {
+   "fips": "46",
+   "it": "Dakota del Sud",
+   "other": [
+    "R",
+    "John Thune"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Mike Rounds (si ricandida)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Mike Rounds"
+     ],
+     [
+      "I",
+      "Brian Bengs"
+     ]
+    ],
+    "poll": {
+     "src": "Concord Public Opinion Partners (D)",
+     "date": "22–26 ott",
+     "n": "448 LV",
+     "v": {
+      "Brian Bengs": 43,
+      "Mike Rounds": 41
+     }
+    },
+    "close": "03:00",
+    "live": null
+   }
+  },
+  "TN": {
+   "fips": "47",
+   "it": "Tennessee",
+   "other": [
+    "R",
+    "Marsha Blackburn"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Bill Hagerty (si ricandida)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Bill Hagerty"
+     ],
+     [
+      "D",
+      "Marquita Bradshaw"
+     ]
+    ],
+    "poll": {
+     "src": "Targoz Market Research",
+     "date": "15–26 ago",
+     "n": "1.157 RV",
+     "v": {
+      "Bill Hagerty": 51,
+      "Marquita Bradshaw": 31
+     }
+    },
+    "close": "02:00",
+    "live": null
+   }
+  },
+  "TX": {
+   "fips": "48",
+   "it": "Texas",
+   "other": [
+    "R",
+    "Ted Cruz"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "John Cornyn (sconfitto al ballottaggio delle primarie)",
+    "rating": "Toss-up",
+    "cand": [
+     [
+      "D",
+      "James Talarico"
+     ],
+     [
+      "R",
+      "Ken Paxton"
+     ]
+    ],
+    "poll": {
+     "src": "KStrat",
+     "date": "30 ott",
+     "n": "900 LV",
+     "v": {
+      "James Talarico": 48,
+      "Ken Paxton": 45
+     }
+    },
+    "close": "03:00",
+    "live": null
+   }
+  },
+  "UT": {
+   "fips": "49",
+   "it": "Utah",
+   "seats": [
+    [
+     "R",
+     "Mike Lee"
+    ],
+    [
+     "R",
+     "John Curtis"
+    ]
+   ]
+  },
+  "VT": {
+   "fips": "50",
+   "it": "Vermont",
+   "seats": [
+    [
+     "DI",
+     "Bernie Sanders (indipendente, vota con i Dem)"
+    ],
+    [
+     "D",
+     "Peter Welch"
+    ]
+   ]
+  },
+  "VA": {
+   "fips": "51",
+   "it": "Virginia",
+   "other": [
+    "D",
+    "Tim Kaine"
+   ],
+   "race": {
+    "inc": "D",
+    "uscente": "Mark Warner (si ricandida)",
+    "rating": "Solid D",
+    "cand": [
+     [
+      "D",
+      "Mark Warner"
+     ],
+     [
+      "R",
+      "Bert Mizusawa"
+     ]
+    ],
+    "poll": {
+     "src": "Public Sentiment Institute",
+     "date": "12–16 giu",
+     "n": "996 RV",
+     "v": {
+      "Mark Warner": 48,
+      "Bert Mizusawa": 32
+     }
+    },
+    "close": "01:00",
+    "live": null
+   }
+  },
+  "WA": {
+   "fips": "53",
+   "it": "Washington",
+   "seats": [
+    [
+     "D",
+     "Patty Murray"
+    ],
+    [
+     "D",
+     "Maria Cantwell"
+    ]
+   ]
+  },
+  "WV": {
+   "fips": "54",
+   "it": "Virginia Occidentale",
+   "other": [
+    "R",
+    "Jim Justice"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Shelley Moore Capito (si ricandida)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Shelley Moore Capito"
+     ],
+     [
+      "D",
+      "Rachel Fetty Anderson"
+     ]
+    ],
+    "poll": null,
+    "close": "01:30",
+    "live": null
+   }
+  },
+  "WI": {
+   "fips": "55",
+   "it": "Wisconsin",
+   "seats": [
+    [
+     "R",
+     "Ron Johnson"
+    ],
+    [
+     "D",
+     "Tammy Baldwin"
+    ]
+   ]
+  },
+  "WY": {
+   "fips": "56",
+   "it": "Wyoming",
+   "other": [
+    "R",
+    "John Barrasso"
+   ],
+   "race": {
+    "inc": "R",
+    "uscente": "Cynthia Lummis (non si ricandida)",
+    "rating": "Solid R",
+    "cand": [
+     [
+      "R",
+      "Harriet Hageman"
+     ],
+     [
+      "D",
+      "James Byrd"
+     ]
+    ],
+    "poll": null,
+    "close": "03:00",
+    "live": null
+   }
+  }
+ },
+ "mode": "pre"
+}
