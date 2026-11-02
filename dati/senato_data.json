@@ -1,5 +1,5 @@
 {
- "aggiornato": "2 novembre 2026, 03:45",
+ "aggiornato": "2 novembre 2026, 13:40",
  "states": {
   "AL": {
    "fips": "01",
@@ -520,11 +520,11 @@
      ]
     ],
     "poll": {
-     "src": "New York Times / Siena",
-     "date": "pubbl. 1 nov",
+     "src": "University of New Hampshire",
+     "date": "pubbl. 2 nov",
      "n": "LV",
      "v": {
-      "Troy Jackson": 51,
+      "Troy Jackson": 54,
       "Susan Collins": 45
      }
     },
@@ -568,12 +568,12 @@
      ]
     ],
     "poll": {
-     "src": "UMass Lowell / YouGov",
-     "date": "7–18 ott",
-     "n": "850 LV",
+     "src": "University of New Hampshire",
+     "date": "pubbl. 2 nov",
+     "n": "LV",
      "v": {
-      "Ed Markey": 55,
-      "John Deaton": 26
+      "Ed Markey": 53,
+      "John Deaton": 32
      }
     },
     "close": "02:00",
@@ -810,12 +810,12 @@
      ]
     ],
     "poll": {
-     "src": "Rasmussen Reports (R)",
-     "date": "1 nov",
+     "src": "University of New Hampshire",
+     "date": "pubbl. 2 nov",
      "n": "LV",
      "v": {
-      "Chris Pappas": 50,
-      "John E. Sununu": 44
+      "Chris Pappas": 54,
+      "John E. Sununu": 42
      }
     },
     "close": "02:00",
