@@ -1,5 +1,5 @@
 {
- "aggiornato": "2 novembre 2026, 13:40",
+ "aggiornato": "2 novembre 2026, 19:35",
  "mode": "pre",
  "races": {
   "AL": {
@@ -406,12 +406,12 @@
     ]
    ],
    "poll": {
-    "src": "UMass Lowell / YouGov",
-    "date": "7–18 ott",
-    "n": "850 LV",
+    "src": "University of New Hampshire",
+    "date": "pubbl. 2 nov",
+    "n": "LV",
     "v": {
-     "Maura Healey": 57,
-     "Mike Minogue": 29
+     "Maura Healey": 55,
+     "Mike Minogue": 36
     }
    },
    "live": null,
@@ -714,13 +714,13 @@
     ]
    ],
    "poll": {
-    "src": "Embold Research",
-    "date": "5–8 ott",
-    "n": "815 LV",
+    "src": "University of New Hampshire",
+    "date": "pubbl. 2 nov",
+    "n": "LV",
     "v": {
-     "Helena Foulkes": 39,
-     "Ken Block": 28,
-     "Aaron Guckian": 17
+     "Helena Foulkes": 55,
+     "Ken Block": 34,
+     "Aaron Guckian": 8
     }
    },
    "live": null,

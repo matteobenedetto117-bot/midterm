@@ -1,5 +1,5 @@
 {
- "aggiornato": "2 novembre 2026, 13:40",
+ "aggiornato": "2 novembre 2026, 19:35",
  "states": {
   "AL": {
    "fips": "01",
@@ -1067,11 +1067,11 @@
      ]
     ],
     "poll": {
-     "src": "Embold Research",
-     "date": "5–8 ott",
-     "n": "815 LV",
+     "src": "University of New Hampshire",
+     "date": "pubbl. 2 nov",
+     "n": "LV",
      "v": {
-      "Jack Reed": 55,
+      "Jack Reed": 63,
       "Raymond McKay": 32
      }
     },
