@@ -1,5 +1,5 @@
 {
- "aggiornato": "1 novembre 2026, 23:40",
+ "aggiornato": "2 novembre 2026, 03:45",
  "states": {
   "AL": {
    "fips": "01",
@@ -57,9 +57,9 @@
      ]
     ],
     "poll": {
-     "src": "Alaska Survey Research",
-     "date": "29 ott",
-     "n": "1.326 LV",
+     "src": "New York Times / Siena",
+     "date": "pubbl. 1 nov",
+     "n": "LV",
      "v": {
       "Mary Peltola": 48,
       "Dan Sullivan": 46
@@ -384,12 +384,12 @@
      ]
     ],
     "poll": {
-     "src": "co/efficient (R)",
-     "date": "28 ott",
-     "n": "1.020 LV",
+     "src": "New York Times / Siena",
+     "date": "pubbl. 1 nov",
+     "n": "LV",
      "v": {
-      "Ashley Hinson": 48,
-      "Josh Turek": 46
+      "Josh Turek": 48,
+      "Ashley Hinson": 47
      }
     },
     "close": "03:00",
@@ -418,12 +418,12 @@
      ]
     ],
     "poll": {
-     "src": "Emerson College",
-     "date": "28 ott",
-     "n": "800 LV",
+     "src": "New York Times / Siena",
+     "date": "pubbl. 1 nov",
+     "n": "LV",
      "v": {
-      "Adam Hamilton": 50,
-      "Roger Marshall": 47
+      "Adam Hamilton": 49,
+      "Roger Marshall": 44
      }
     },
     "close": "03:00",
@@ -520,12 +520,12 @@
      ]
     ],
     "poll": {
-     "src": "YouGov",
-     "date": "29 ott",
-     "n": "1.503 LV",
+     "src": "New York Times / Siena",
+     "date": "pubbl. 1 nov",
+     "n": "LV",
      "v": {
-      "Troy Jackson": 52,
-      "Susan Collins": 47
+      "Troy Jackson": 51,
+      "Susan Collins": 45
      }
     },
     "close": "02:00",
@@ -602,12 +602,12 @@
      ]
     ],
     "poll": {
-     "src": "Rasmussen Reports (R)",
-     "date": "29 ott",
-     "n": "745 LV",
+     "src": "New York Times / Siena",
+     "date": "pubbl. 1 nov",
+     "n": "LV",
      "v": {
-      "Abdul El-Sayed": 49,
-      "Mike Rogers": 44
+      "Abdul El-Sayed": 53,
+      "Mike Rogers": 42
      }
     },
     "close": "03:00",
@@ -967,12 +967,12 @@
      ]
     ],
     "poll": {
-     "src": "ActiVote",
-     "date": "31 ott",
-     "n": "400 LV",
+     "src": "New York Times / Siena",
+     "date": "pubbl. 1 nov",
+     "n": "LV",
      "v": {
-      "Sherrod Brown": 50.2,
-      "Jon Husted": 49.8
+      "Sherrod Brown": 49,
+      "Jon Husted": 44
      }
     },
     "close": "01:30",
@@ -1203,12 +1203,12 @@
      ]
     ],
     "poll": {
-     "src": "YouGov",
-     "date": "1 nov",
+     "src": "New York Times / Siena",
+     "date": "pubbl. 1 nov",
      "n": "LV",
      "v": {
-      "James Talarico": 51,
-      "Ken Paxton": 47
+      "James Talarico": 50,
+      "Ken Paxton": 43
      }
     },
     "close": "03:00",

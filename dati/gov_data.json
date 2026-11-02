@@ -1,5 +1,5 @@
 {
- "aggiornato": "1 novembre 2026, 23:40",
+ "aggiornato": "2 novembre 2026, 03:45",
  "mode": "pre",
  "races": {
   "AL": {
@@ -43,12 +43,12 @@
     ]
    ],
    "poll": {
-    "src": "Alaska Survey Research (turno finale ranked-choice)",
-    "date": "23–25 ott",
-    "n": "1.068 LV",
+    "src": "New York Times / Siena",
+    "date": "pubbl. 1 nov",
+    "n": "LV",
     "v": {
-     "Jonathan Kreiss-Tomkins": 53,
-     "Bernadette Wilson": 47
+     "Jonathan Kreiss-Tomkins": 54,
+     "Bernadette Wilson": 46
     }
    },
    "live": null,
@@ -297,12 +297,12 @@
     ]
    ],
    "poll": {
-    "src": "co/efficient (R)",
-    "date": "28 ott",
-    "n": "1.020 LV",
+    "src": "New York Times / Siena",
+    "date": "pubbl. 1 nov",
+    "n": "LV",
     "v": {
-     "Rob Sand": 50,
-     "Zach Lahn": 45
+     "Rob Sand": 51,
+     "Zach Lahn": 43
     }
    },
    "live": null,
@@ -323,12 +323,12 @@
     ]
    ],
    "poll": {
-    "src": "Emerson College",
-    "date": "26–28 ott",
-    "n": "800 LV",
+    "src": "New York Times / Siena",
+    "date": "pubbl. 1 nov",
+    "n": "LV",
     "v": {
-     "Ty Masterson": 50,
-     "Cindy Holscher": 46
+     "Cindy Holscher": 48,
+     "Ty Masterson": 47
     }
    },
    "live": null,
@@ -346,15 +346,20 @@
     [
      "R",
      "Robert Charles"
+    ],
+    [
+     "I",
+     "Richard Bennett"
     ]
    ],
    "poll": {
-    "src": "CNN / SSRS",
-    "date": "20–26 ott",
-    "n": "783 LV",
+    "src": "New York Times / Siena",
+    "date": "pubbl. 1 nov",
+    "n": "LV",
     "v": {
-     "Hannah Pingree": 53,
-     "Robert Charles": 39
+     "Hannah Pingree": 49,
+     "Robert Charles": 37,
+     "Richard Bennett": 8
     }
    },
    "live": null,
@@ -427,12 +432,12 @@
     ]
    ],
    "poll": {
-    "src": "Rasmussen Reports (R)",
-    "date": "28–29 ott",
-    "n": "745 LV",
+    "src": "New York Times / Siena",
+    "date": "pubbl. 1 nov",
+    "n": "LV",
     "v": {
-     "Jocelyn Benson": 50,
-     "John James": 40
+     "Jocelyn Benson": 52,
+     "John James": 39
     }
    },
    "live": null,
@@ -531,11 +536,11 @@
     ]
    ],
    "poll": {
-    "src": "Saint Anselm College",
-    "date": "19–20 ott",
-    "n": "1.672 LV",
+    "src": "UMass Lowell",
+    "date": "fine ott",
+    "n": "LV",
     "v": {
-     "Kelly Ayotte": 50,
+     "Kelly Ayotte": 48,
      "Cinde Warmington": 42
     }
    },
@@ -609,12 +614,12 @@
     ]
    ],
    "poll": {
-    "src": "ActiVote",
-    "date": "16–31 ott",
-    "n": "400 LV",
+    "src": "New York Times / Siena",
+    "date": "pubbl. 1 nov",
+    "n": "LV",
     "v": {
-     "Amy Acton": 50.8,
-     "Vivek Ramaswamy": 49.2
+     "Amy Acton": 49,
+     "Vivek Ramaswamy": 43
     }
    },
    "live": null,
@@ -819,12 +824,12 @@
     ]
    ],
    "poll": {
-    "src": "Quantus Insights",
-    "date": "30 ott",
+    "src": "New York Times / Siena",
+    "date": "pubbl. 1 nov",
     "n": "LV",
     "v": {
-     "Greg Abbott": 52,
-     "Gina Hinojosa": 46
+     "Gina Hinojosa": 48,
+     "Greg Abbott": 47
     }
    },
    "live": null,
