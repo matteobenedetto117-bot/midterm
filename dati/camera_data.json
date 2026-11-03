@@ -1,6 +1,6 @@
 {
- "aggiornato": "1 novembre 2026, 21:00",
- "mode": "pre",
+ "aggiornato": "4 novembre 2026, 00:55",
+ "mode": "live",
  "attuale": {
   "D": 215,
   "R": 218,
@@ -208,7 +208,18 @@
    "safeR": 7,
    "tossD": 0,
    "tossR": 0,
-   "live": null,
+   "live": {
+    "started": true,
+    "called": {
+     "D": 0,
+     "R": 0
+    },
+    "lead": {
+     "D": 1,
+     "R": 1
+    },
+    "agg": "00:55"
+   },
    "cur": {
     "D": 2,
     "R": 7,
@@ -253,7 +264,18 @@
    "safeR": 4,
    "tossD": 0,
    "tossR": 1,
-   "live": null,
+   "live": {
+    "started": true,
+    "called": {
+     "D": 0,
+     "R": 0
+    },
+    "lead": {
+     "D": 0,
+     "R": 2
+    },
+    "agg": "00:55"
+   },
    "cur": {
     "D": 1,
     "R": 5,

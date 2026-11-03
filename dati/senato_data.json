@@ -1,5 +1,5 @@
 {
- "aggiornato": "3 novembre 2026, 19:05",
+ "aggiornato": "4 novembre 2026, 00:50",
  "states": {
   "AL": {
    "fips": "01",
@@ -1358,5 +1358,5 @@
    }
   }
  },
- "mode": "pre"
+ "mode": "live"
 }
