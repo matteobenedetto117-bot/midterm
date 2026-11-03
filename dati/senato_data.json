@@ -1,5 +1,5 @@
 {
- "aggiornato": "2 novembre 2026, 19:35",
+ "aggiornato": "3 novembre 2026, 03:45",
  "states": {
   "AL": {
    "fips": "01",
@@ -384,12 +384,12 @@
      ]
     ],
     "poll": {
-     "src": "New York Times / Siena",
-     "date": "pubbl. 1 nov",
-     "n": "LV",
+     "src": "GrayHouse (R)",
+     "date": "2 nov",
+     "n": "601 LV",
      "v": {
-      "Josh Turek": 48,
-      "Ashley Hinson": 47
+      "Ashley Hinson": 48,
+      "Josh Turek": 46
      }
     },
     "close": "03:00",

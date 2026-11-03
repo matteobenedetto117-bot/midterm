@@ -1,5 +1,5 @@
 {
- "aggiornato": "2 novembre 2026, 19:35",
+ "aggiornato": "3 novembre 2026, 03:45",
  "mode": "pre",
  "races": {
   "AL": {
@@ -209,12 +209,12 @@
     ]
    ],
    "poll": {
-    "src": "State Navigate",
-    "date": "23–27 ott",
-    "n": "679 LV",
+    "src": "InsiderAdvantage",
+    "date": "2 nov",
+    "n": "2.500 LV",
     "v": {
-     "Keisha Lance Bottoms": 50,
-     "Rick Jackson": 47
+     "Keisha Lance Bottoms": 49,
+     "Rick Jackson": 49
     }
    },
    "live": null,
