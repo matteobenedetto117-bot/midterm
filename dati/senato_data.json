@@ -1,5 +1,5 @@
 {
- "aggiornato": "3 novembre 2026, 03:45",
+ "aggiornato": "3 novembre 2026, 19:05",
  "states": {
   "AL": {
    "fips": "01",
@@ -762,12 +762,12 @@
      ]
     ],
     "poll": {
-     "src": "New York Times / Siena",
-     "date": "29 ott",
-     "n": "809 LV",
+     "src": "YouGov",
+     "date": "26–29 ott (pubbl. 1 nov)",
+     "n": "1.979 LV",
      "v": {
       "Pete Ricketts": 49,
-      "Dan Osborn": 43
+      "Dan Osborn": 49
      }
     },
     "close": "03:00",
@@ -918,12 +918,12 @@
      ]
     ],
     "poll": {
-     "src": "Harper Polling / Carolina Journal (R)",
-     "date": "18–20 ott",
-     "n": "600 LV",
+     "src": "YouGov",
+     "date": "26–29 ott (pubbl. 1 nov)",
+     "n": "2.130 LV",
      "v": {
-      "Roy Cooper": 49,
-      "Michael Whatley": 39
+      "Roy Cooper": 55,
+      "Michael Whatley": 44
      }
     },
     "close": "01:30",
