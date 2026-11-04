@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 03:02",
+ "aggiornato": "4 novembre 2026, 03:22",
  "states": {
   "AL": {
    "fips": "01",
@@ -162,7 +162,16 @@
     ],
     "poll": null,
     "close": "03:00",
-    "live": null
+    "live": {
+     "v": {
+      "John Hickenlooper": 72.2,
+      "Mark Baisley": 24.0
+     },
+     "scrut": 12.7,
+     "called": true,
+     "winner": "John Hickenlooper",
+     "agg": "03:20"
+    }
    }
   },
   "CT": {
@@ -434,7 +443,15 @@
      }
     },
     "close": "03:00",
-    "live": null
+    "live": {
+     "v": {
+      "Josh Turek": 69.3,
+      "Ashley Hinson": 29.0
+     },
+     "scrut": 5.8,
+     "called": false,
+     "agg": "03:20"
+    }
    }
   },
   "KS": {
@@ -470,12 +487,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "Adam Hamilton": 63.1,
-      "Roger Marshall": 35.0
+      "Adam Hamilton": 61.1,
+      "Roger Marshall": 36.8
      },
-     "scrut": 35.4,
+     "scrut": 40.0,
      "called": false,
-     "agg": "02:59"
+     "agg": "03:20"
     }
    }
   },
@@ -553,7 +570,15 @@
      }
     },
     "close": "03:00",
-    "live": null
+    "live": {
+     "v": {
+      "Julia Letlow": 56.8,
+      "Jamie Davis": 43.2
+     },
+     "scrut": 13.8,
+     "called": false,
+     "agg": "03:20"
+    }
    }
   },
   "ME": {
@@ -728,7 +753,15 @@
      }
     },
     "close": "03:00",
-    "live": null
+    "live": {
+     "v": {
+      "Michele Tafoya": 69.7,
+      "Peggy Flanagan": 27.8
+     },
+     "scrut": 0.2,
+     "called": false,
+     "agg": "03:20"
+    }
    }
   },
   "MS": {
@@ -854,7 +887,15 @@
      }
     },
     "close": "03:00",
-    "live": null
+    "live": {
+     "v": {
+      "Dan Osborn": 58.0,
+      "Pete Ricketts": 36.9
+     },
+     "scrut": 23.4,
+     "called": false,
+     "agg": "03:20"
+    }
    }
   },
   "NV": {
@@ -1088,12 +1129,12 @@
     "close": "01:30",
     "live": {
      "v": {
-      "Sherrod Brown": 52.9,
-      "Jon Husted": 43.1
+      "Sherrod Brown": 50.8,
+      "Jon Husted": 44.9
      },
-     "scrut": 43.9,
+     "scrut": 52.1,
      "called": false,
-     "agg": "02:59"
+     "agg": "03:20"
     }
    }
   },
@@ -1346,12 +1387,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "James Talarico": 58.3,
-      "Ken Paxton": 40.1
+      "James Talarico": 58.2,
+      "Ken Paxton": 40.3
      },
-     "scrut": 37.7,
+     "scrut": 41.6,
      "called": false,
-     "agg": "02:59"
+     "agg": "03:20"
     }
    }
   },

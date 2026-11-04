@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 03:02",
+ "aggiornato": "4 novembre 2026, 03:22",
  "mode": "live",
  "races": {
   "AL": {
@@ -201,12 +201,13 @@
    },
    "live": {
     "v": {
-     "Byron Donalds": 50.0,
+     "Byron Donalds": 50.1,
      "David Jolly": 48.7
     },
-    "scrut": 97.3,
-    "called": false,
-    "agg": "02:59"
+    "scrut": 98.1,
+    "called": true,
+    "winner": "Byron Donalds",
+    "agg": "03:20"
    },
    "close": "02:00"
   },
@@ -235,12 +236,13 @@
    },
    "live": {
     "v": {
-     "Keisha Lance Bottoms": 56.2,
-     "Rick Jackson": 43.8
+     "Keisha Lance Bottoms": 55.9,
+     "Rick Jackson": 44.1
     },
-    "scrut": 69.4,
-    "called": false,
-    "agg": "02:59"
+    "scrut": 71.8,
+    "called": true,
+    "winner": "Keisha Lance Bottoms",
+    "agg": "03:20"
    },
    "close": "01:00"
   },
@@ -366,12 +368,12 @@
    },
    "live": {
     "v": {
-     "Cindy Holscher": 56.7,
-     "Ty Masterson": 43.3
+     "Cindy Holscher": 60.4,
+     "Ty Masterson": 39.6
     },
-    "scrut": 8.0,
+    "scrut": 39.6,
     "called": false,
-    "agg": "02:15"
+    "agg": "03:20"
    },
    "close": "03:00"
   },
@@ -668,7 +670,16 @@
      "Bruce Blakeman": 41
     }
    },
-   "live": null,
+   "live": {
+    "v": {
+     "Kathy Hochul": 74.5,
+     "Bruce Blakeman": 25.3
+    },
+    "scrut": 15.7,
+    "called": true,
+    "winner": "Kathy Hochul",
+    "agg": "03:20"
+   },
    "close": "03:00"
   },
   "OH": {
@@ -696,12 +707,12 @@
    },
    "live": {
     "v": {
-     "Amy Acton": 54.8,
-     "Vivek Ramaswamy": 42.3
+     "Amy Acton": 52.8,
+     "Vivek Ramaswamy": 44.1
     },
-    "scrut": 43.8,
+    "scrut": 51.7,
     "called": false,
-    "agg": "02:59"
+    "agg": "03:20"
    },
    "close": "01:30"
   },
@@ -937,12 +948,12 @@
    },
    "live": {
     "v": {
-     "Gina Hinojosa": 51.7,
-     "Greg Abbott": 47.0
+     "Gina Hinojosa": 55.8,
+     "Greg Abbott": 42.9
     },
-    "scrut": 6.7,
+    "scrut": 42.2,
     "called": false,
-    "agg": "02:15"
+    "agg": "03:20"
    },
    "close": "03:00"
   },
@@ -1003,7 +1014,15 @@
      "Tom Tiffany": 44.6
     }
    },
-   "live": null,
+   "live": {
+    "v": {
+     "Tom Tiffany": 52.4,
+     "David Crowley": 47.6
+    },
+    "scrut": 2.2,
+    "called": false,
+    "agg": "03:20"
+   },
    "close": "03:00"
   },
   "WY": {
