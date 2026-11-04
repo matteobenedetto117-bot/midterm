@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 01:15",
+ "aggiornato": "4 novembre 2026, 01:35",
  "states": {
   "AL": {
    "fips": "01",
@@ -229,7 +229,15 @@
      }
     },
     "close": "02:00",
-    "live": null
+    "live": {
+     "v": {
+      "Angie Nixon": 50.0,
+      "Ashley Moody": 49.0
+     },
+     "scrut": 63.4,
+     "called": false,
+     "agg": "01:32"
+    }
    }
   },
   "GA": {
@@ -265,12 +273,13 @@
     "close": "01:00",
     "live": {
      "v": {
-      "Jon Ossoff": 58.9,
-      "Mike Collins": 41.1
+      "Jon Ossoff": 67.4,
+      "Mike Collins": 32.6
      },
-     "scrut": 1,
-     "called": false,
-     "agg": "01:10"
+     "scrut": 23.4,
+     "called": true,
+     "winner": "Jon Ossoff",
+     "agg": "01:32"
     }
    }
   },
@@ -471,12 +480,12 @@
     "close": "01:00",
     "live": {
      "v": {
-      "Charles Booker": 51.3,
-      "Andy Barr": 47.3
+      "Andy Barr": 52.0,
+      "Charles Booker": 46.3
      },
-     "scrut": 9.6,
+     "scrut": 13.5,
      "called": false,
-     "agg": "01:10"
+     "agg": "01:32"
     }
    }
   },
@@ -1126,7 +1135,15 @@
      }
     },
     "close": "01:00",
-    "live": null
+    "live": {
+     "v": {
+      "Annie Andrews": 55.5,
+      "Darline Graham": 43.1
+     },
+     "scrut": 0.6,
+     "called": false,
+     "agg": "01:32"
+    }
    }
   },
   "SD": {

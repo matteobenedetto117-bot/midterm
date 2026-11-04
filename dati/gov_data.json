@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 01:15",
+ "aggiornato": "4 novembre 2026, 01:35",
  "mode": "live",
  "races": {
   "AL": {
@@ -191,7 +191,15 @@
      "David Jolly": 48
     }
    },
-   "live": null,
+   "live": {
+    "v": {
+     "David Jolly": 50.6,
+     "Byron Donalds": 48.2
+    },
+    "scrut": 57.6,
+    "called": false,
+    "agg": "01:32"
+   },
    "close": "02:00"
   },
   "GA": {
@@ -217,7 +225,15 @@
      "Rick Jackson": 49
     }
    },
-   "live": null,
+   "live": {
+    "v": {
+     "Keisha Lance Bottoms": 63.2,
+     "Rick Jackson": 36.8
+    },
+    "scrut": 23.3,
+    "called": false,
+    "agg": "01:32"
+   },
    "close": "01:00"
   },
   "HI": {
@@ -749,7 +765,15 @@
      "Jermaine Johnson": 41
     }
    },
-   "live": null,
+   "live": {
+    "v": {
+     "Jermaine Johnson": 52.2,
+     "Alan Wilson": 46.9
+    },
+    "scrut": 0.6,
+    "called": false,
+    "agg": "01:32"
+   },
    "close": "01:00"
   },
   "SD": {
@@ -858,7 +882,15 @@
      "Amanda Janoo": 46
     }
    },
-   "live": null,
+   "live": {
+    "v": {
+     "Amanda Janoo": 52.3,
+     "Phil Scott": 46.3
+    },
+    "scrut": 2.6,
+    "called": false,
+    "agg": "01:32"
+   },
    "close": "01:00"
   },
   "WI": {
