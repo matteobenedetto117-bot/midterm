@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 02:18",
+ "aggiornato": "4 novembre 2026, 02:40",
  "states": {
   "AL": {
    "fips": "01",
@@ -249,8 +249,9 @@
       "Angie Nixon": 48.7
      },
      "scrut": 91.0,
-     "called": false,
-     "agg": "02:15"
+     "called": true,
+     "winner": "Ashley Moody",
+     "agg": "02:37"
     }
    }
   },
@@ -287,13 +288,13 @@
     "close": "01:00",
     "live": {
      "v": {
-      "Jon Ossoff": 63.7,
-      "Mike Collins": 36.3
+      "Jon Ossoff": 61.8,
+      "Mike Collins": 38.2
      },
-     "scrut": 54.7,
+     "scrut": 62.5,
      "called": true,
      "winner": "Jon Ossoff",
-     "agg": "02:15"
+     "agg": "02:37"
     }
    }
   },
@@ -378,13 +379,13 @@
     "close": "02:00",
     "live": {
      "v": {
-      "Juliana Stratton": 70.6,
-      "Don Tracy": 28.1
+      "Juliana Stratton": 66.9,
+      "Don Tracy": 31.8
      },
-     "scrut": 0.3,
+     "scrut": 5.1,
      "called": true,
      "winner": "Juliana Stratton",
-     "agg": "02:15"
+     "agg": "02:37"
     }
    }
   },
@@ -511,12 +512,12 @@
     "close": "01:00",
     "live": {
      "v": {
-      "Andy Barr": 55.1,
-      "Charles Booker": 42.8
+      "Andy Barr": 53.3,
+      "Charles Booker": 44.7
      },
-     "scrut": 32.4,
+     "scrut": 49.9,
      "called": false,
-     "agg": "02:15"
+     "agg": "02:37"
     }
    }
   },
@@ -585,7 +586,15 @@
      }
     },
     "close": "02:00",
-    "live": null
+    "live": {
+     "v": {
+      "Susan Collins": 64.4,
+      "Troy Jackson": 35.6
+     },
+     "scrut": 1,
+     "called": false,
+     "agg": "02:37"
+    }
    }
   },
   "MD": {
@@ -635,13 +644,13 @@
     "close": "02:00",
     "live": {
      "v": {
-      "Ed Markey": 73.4,
-      "John Deaton": 18.8
+      "Ed Markey": 82.4,
+      "John Deaton": 9.4
      },
-     "scrut": 0.1,
+     "scrut": 1,
      "called": true,
      "winner": "Ed Markey",
-     "agg": "02:15"
+     "agg": "02:37"
     }
    }
   },
@@ -676,7 +685,15 @@
      }
     },
     "close": "03:00",
-    "live": null
+    "live": {
+     "v": {
+      "Abdul El-Sayed": 57.2,
+      "Mike Rogers": 41.2
+     },
+     "scrut": 8.8,
+     "called": false,
+     "agg": "02:37"
+    }
    }
   },
   "MN": {
@@ -886,12 +903,13 @@
     "close": "02:00",
     "live": {
      "v": {
-      "Chris Pappas": 61.0,
-      "John E. Sununu": 37.3
+      "Chris Pappas": 60.1,
+      "John E. Sununu": 38.1
      },
-     "scrut": 18.9,
-     "called": false,
-     "agg": "02:15"
+     "scrut": 23.2,
+     "called": true,
+     "winner": "Chris Pappas",
+     "agg": "02:37"
     }
    }
   },
@@ -919,11 +937,14 @@
     "poll": null,
     "close": "02:00",
     "live": {
-     "v": {},
-     "scrut": 0.1,
+     "v": {
+      "Cory Booker": 69.0,
+      "Justin Murphy": 28.9
+     },
+     "scrut": 10,
      "called": true,
      "winner": "Cory Booker",
-     "agg": "02:15"
+     "agg": "02:37"
     }
    }
   },
@@ -1006,7 +1027,16 @@
      }
     },
     "close": "01:30",
-    "live": null
+    "live": {
+     "v": {
+      "Roy Cooper": 65.2,
+      "Michael Whatley": 33.2
+     },
+     "scrut": 61.0,
+     "called": true,
+     "winner": "Roy Cooper",
+     "agg": "02:37"
+    }
    }
   },
   "ND": {
@@ -1205,12 +1235,12 @@
     "close": "01:00",
     "live": {
      "v": {
-      "Annie Andrews": 50.5,
-      "Darline Graham": 48.0
+      "Annie Andrews": 52.6,
+      "Darline Graham": 45.7
      },
-     "scrut": 23.4,
+     "scrut": 30,
      "called": false,
-     "agg": "02:15"
+     "agg": "02:37"
     }
    }
   },
@@ -1315,12 +1345,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "James Talarico": 63.1,
-      "Ken Paxton": 35.3
+      "James Talarico": 59.5,
+      "Ken Paxton": 39.0
      },
-     "scrut": 12.7,
+     "scrut": 24.7,
      "called": false,
-     "agg": "02:15"
+     "agg": "02:37"
     }
    }
   },

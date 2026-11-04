@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 02:18",
+ "aggiornato": "4 novembre 2026, 02:40",
  "mode": "live",
  "attuale": {
   "D": 215,
@@ -495,14 +495,14 @@
    "live": {
     "started": true,
     "called": {
-     "D": 1,
+     "D": 2,
      "R": 0
     },
     "lead": {
      "D": 0,
      "R": 0
     },
-    "agg": "02:15"
+    "agg": "02:37"
    },
    "cur": {
     "D": 9,
