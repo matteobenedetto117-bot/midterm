@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 03:22",
+ "aggiornato": "4 novembre 2026, 03:44",
  "mode": "live",
  "races": {
   "AL": {
@@ -340,7 +340,15 @@
      "Zach Lahn": 43
     }
    },
-   "live": null,
+   "live": {
+    "v": {
+     "Rob Sand": 65.5,
+     "Zach Lahn": 34.5
+    },
+    "scrut": 22.5,
+    "called": false,
+    "agg": "03:41"
+   },
    "close": "03:00"
   },
   "KS": {
@@ -368,12 +376,12 @@
    },
    "live": {
     "v": {
-     "Cindy Holscher": 60.4,
-     "Ty Masterson": 39.6
+     "Cindy Holscher": 57.3,
+     "Ty Masterson": 42.7
     },
-    "scrut": 39.6,
+    "scrut": 51.6,
     "called": false,
-    "agg": "03:20"
+    "agg": "03:41"
    },
    "close": "03:00"
   },
@@ -500,12 +508,12 @@
    },
    "live": {
     "v": {
-     "Jocelyn Benson": 58.3,
-     "John James": 40.3
+     "Jocelyn Benson": 57.1,
+     "John James": 41.4
     },
-    "scrut": 12.6,
+    "scrut": 17.7,
     "called": false,
-    "agg": "02:59"
+    "agg": "03:41"
    },
    "close": "03:00"
   },
@@ -707,12 +715,12 @@
    },
    "live": {
     "v": {
-     "Amy Acton": 52.8,
-     "Vivek Ramaswamy": 44.1
+     "Amy Acton": 51.3,
+     "Vivek Ramaswamy": 45.4
     },
-    "scrut": 51.7,
+    "scrut": 60.3,
     "called": false,
-    "agg": "03:20"
+    "agg": "03:41"
    },
    "close": "01:30"
   },
@@ -948,12 +956,12 @@
    },
    "live": {
     "v": {
-     "Gina Hinojosa": 55.8,
-     "Greg Abbott": 42.9
+     "Gina Hinojosa": 57.4,
+     "Greg Abbott": 41.4
     },
-    "scrut": 42.2,
+    "scrut": 52.8,
     "called": false,
-    "agg": "03:20"
+    "agg": "03:41"
    },
    "close": "03:00"
   },
@@ -1016,12 +1024,12 @@
    },
    "live": {
     "v": {
-     "Tom Tiffany": 52.4,
-     "David Crowley": 47.6
+     "David Crowley": 53.5,
+     "Tom Tiffany": 46.5
     },
-    "scrut": 2.2,
+    "scrut": 17.3,
     "called": false,
-    "agg": "03:20"
+    "agg": "03:41"
    },
    "close": "03:00"
   },

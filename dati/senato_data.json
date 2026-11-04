@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 03:22",
+ "aggiornato": "4 novembre 2026, 03:44",
  "states": {
   "AL": {
    "fips": "01",
@@ -34,12 +34,12 @@
     "close": "02:00",
     "live": {
      "v": {
-      "Everett Wess": 64.5,
-      "Barry Moore": 35.5
+      "Barry Moore": 62.4,
+      "Everett Wess": 37.6
      },
-     "scrut": 0.2,
+     "scrut": 11.6,
      "called": false,
-     "agg": "02:15"
+     "agg": "03:41"
     }
    }
   },
@@ -122,7 +122,15 @@
      }
     },
     "close": "02:30",
-    "live": null
+    "live": {
+     "v": {
+      "Tom Cotton": 50.7,
+      "Hallie Shoffner": 46.6
+     },
+     "scrut": 61.3,
+     "called": false,
+     "agg": "03:41"
+    }
    }
   },
   "CA": {
@@ -445,12 +453,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "Josh Turek": 69.3,
-      "Ashley Hinson": 29.0
+      "Josh Turek": 60.7,
+      "Ashley Hinson": 37.0
      },
-     "scrut": 5.8,
+     "scrut": 22.6,
      "called": false,
-     "agg": "03:20"
+     "agg": "03:41"
     }
    }
   },
@@ -487,12 +495,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "Adam Hamilton": 61.1,
-      "Roger Marshall": 36.8
+      "Adam Hamilton": 58.2,
+      "Roger Marshall": 39.4
      },
-     "scrut": 40.0,
+     "scrut": 51.9,
      "called": false,
-     "agg": "03:20"
+     "agg": "03:41"
     }
    }
   },
@@ -614,12 +622,12 @@
     "close": "02:00",
     "live": {
      "v": {
-      "Troy Jackson": 58.0,
-      "Susan Collins": 42.0
+      "Troy Jackson": 50.2,
+      "Susan Collins": 49.7
      },
-     "scrut": 3.8,
+     "scrut": 10.0,
      "called": false,
-     "agg": "02:59"
+     "agg": "03:41"
     }
    }
   },
@@ -713,12 +721,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "Abdul El-Sayed": 55.8,
-      "Mike Rogers": 42.6
+      "Abdul El-Sayed": 55.1,
+      "Mike Rogers": 43.3
      },
-     "scrut": 12.6,
+     "scrut": 17.5,
      "called": false,
-     "agg": "02:59"
+     "agg": "03:41"
     }
    }
   },
@@ -889,12 +897,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "Dan Osborn": 58.0,
-      "Pete Ricketts": 36.9
+      "Dan Osborn": 57.0,
+      "Pete Ricketts": 37.9
      },
-     "scrut": 23.4,
+     "scrut": 24.5,
      "called": false,
-     "agg": "03:20"
+     "agg": "03:41"
     }
    }
   },
@@ -1021,7 +1029,16 @@
      }
     },
     "close": "03:00",
-    "live": null
+    "live": {
+     "v": {
+      "Ben Ray Luján": 71.5,
+      "Larry Marker": 28.5
+     },
+     "scrut": 14.5,
+     "called": true,
+     "winner": "Ben Ray Luján",
+     "agg": "03:41"
+    }
    }
   },
   "NY": {
@@ -1129,12 +1146,12 @@
     "close": "01:30",
     "live": {
      "v": {
-      "Sherrod Brown": 50.8,
-      "Jon Husted": 44.9
+      "Sherrod Brown": 49.0,
+      "Jon Husted": 46.4
      },
-     "scrut": 52.1,
+     "scrut": 61.8,
      "called": false,
-     "agg": "03:20"
+     "agg": "03:41"
     }
    }
   },
@@ -1161,7 +1178,16 @@
     ],
     "poll": null,
     "close": "02:00",
-    "live": null
+    "live": {
+     "v": {
+      "Kevin Hern": 60.5,
+      "N'Kiyla Thomas": 36.0
+     },
+     "scrut": 59.6,
+     "called": true,
+     "winner": "Kevin Hern",
+     "agg": "03:41"
+    }
    }
   },
   "OR": {
@@ -1277,12 +1303,12 @@
     "close": "01:00",
     "live": {
      "v": {
-      "Annie Andrews": 53.6,
-      "Darline Graham": 44.7
+      "Annie Andrews": 51.2,
+      "Darline Graham": 46.8
      },
-     "scrut": 65.4,
+     "scrut": 81.9,
      "called": false,
-     "agg": "02:59"
+     "agg": "03:41"
     }
    }
   },
@@ -1351,7 +1377,15 @@
      }
     },
     "close": "02:00",
-    "live": null
+    "live": {
+     "v": {
+      "Bill Hagerty": 53.1,
+      "Marquita Bradshaw": 45.0
+     },
+     "scrut": 57.2,
+     "called": false,
+     "agg": "03:41"
+    }
    }
   },
   "TX": {
@@ -1387,12 +1421,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "James Talarico": 58.2,
-      "Ken Paxton": 40.3
+      "James Talarico": 59.4,
+      "Ken Paxton": 39.1
      },
-     "scrut": 41.6,
+     "scrut": 53.2,
      "called": false,
-     "agg": "03:20"
+     "agg": "03:41"
     }
    }
   },
@@ -1553,7 +1587,16 @@
     ],
     "poll": null,
     "close": "03:00",
-    "live": null
+    "live": {
+     "v": {
+      "Harriet Hageman": 78.2,
+      "James Byrd": 21.8
+     },
+     "scrut": 1.3,
+     "called": true,
+     "winner": "Harriet Hageman",
+     "agg": "03:41"
+    }
    }
   }
  },
