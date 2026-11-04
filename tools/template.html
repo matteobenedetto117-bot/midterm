@@ -228,7 +228,8 @@ const cur=q=>q.up?leader(q.race):(q.party==='DI'?'D':q.party);
   }
   const c=document.getElementById('ctrl');
   if(LIVE){
-    if(n.R>=50){c.textContent='Repubblicani in vantaggio per il controllo del Senato';c.style.background='#fbe3e3';c.style.color='var(--r)';}
+    if(DATA.controllo){c.textContent=(DATA.controllo==='D'?'Democratici':'Repubblicani')+' conquistano la maggioranza del Senato ('+(DATA.fonte||'proiezione')+')';c.style.background=DATA.controllo==='D'?'#e1eafb':'#fbe3e3';c.style.color=DATA.controllo==='D'?'var(--d)':'var(--r)';}
+    else if(n.R>=50){c.textContent='Repubblicani in vantaggio per il controllo del Senato';c.style.background='#fbe3e3';c.style.color='var(--r)';}
     else if(n.D>=51){c.textContent='Democratici in vantaggio per il controllo del Senato';c.style.background='#e1eafb';c.style.color='var(--d)';}
     else {c.textContent='Controllo del Senato in bilico: decisivi gli indipendenti';c.style.background='#fbf3d6';c.style.color='#8a6a00';}
   } else c.style.display='none';
