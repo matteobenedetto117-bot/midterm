@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 01:55",
+ "aggiornato": "4 novembre 2026, 02:18",
  "mode": "live",
  "attuale": {
   "D": 215,
@@ -136,14 +136,14 @@
    "live": {
     "started": true,
     "called": {
-     "D": 5,
-     "R": 9
+     "D": 6,
+     "R": 10
     },
     "lead": {
      "D": 0,
      "R": 0
     },
-    "agg": "01:53"
+    "agg": "02:15"
    },
    "cur": {
     "D": 7,
@@ -162,14 +162,14 @@
    "live": {
     "started": true,
     "called": {
-     "D": 4,
+     "D": 5,
      "R": 0
     },
     "lead": {
-     "D": 1,
-     "R": 2
+     "D": 0,
+     "R": 0
     },
-    "agg": "01:53"
+    "agg": "02:15"
    },
    "cur": {
     "D": 5,
@@ -238,9 +238,9 @@
     },
     "lead": {
      "D": 1,
-     "R": 1
+     "R": 3
     },
-    "agg": "00:55"
+    "agg": "02:15"
    },
    "cur": {
     "D": 2,
@@ -289,14 +289,14 @@
    "live": {
     "started": true,
     "called": {
-     "D": 0,
-     "R": 0
+     "D": 1,
+     "R": 2
     },
     "lead": {
      "D": 0,
-     "R": 2
+     "R": 1
     },
-    "agg": "00:55"
+    "agg": "02:15"
    },
    "cur": {
     "D": 1,
@@ -492,7 +492,18 @@
    "safeR": 2,
    "tossD": 1,
    "tossR": 0,
-   "live": null,
+   "live": {
+    "started": true,
+    "called": {
+     "D": 1,
+     "R": 0
+    },
+    "lead": {
+     "D": 0,
+     "R": 0
+    },
+    "agg": "02:15"
+   },
    "cur": {
     "D": 9,
     "R": 3,
@@ -574,10 +585,10 @@
      "R": 0
     },
     "lead": {
-     "D": 0,
-     "R": 1
+     "D": 1,
+     "R": 2
     },
-    "agg": "01:53"
+    "agg": "02:15"
    },
    "cur": {
     "D": 5,
@@ -653,7 +664,18 @@
    "safeR": 5,
    "tossD": 0,
    "tossR": 1,
-   "live": null,
+   "live": {
+    "started": true,
+    "called": {
+     "D": 1,
+     "R": 0
+    },
+    "lead": {
+     "D": 0,
+     "R": 0
+    },
+    "agg": "02:15"
+   },
    "cur": {
     "D": 1,
     "R": 6,
@@ -698,7 +720,18 @@
    "safeR": 25,
    "tossD": 2,
    "tossR": 2,
-   "live": null,
+   "live": {
+    "started": true,
+    "called": {
+     "D": 2,
+     "R": 0
+    },
+    "lead": {
+     "D": 0,
+     "R": 0
+    },
+    "agg": "02:15"
+   },
    "cur": {
     "D": 13,
     "R": 24,
@@ -746,14 +779,14 @@
    "live": {
     "started": true,
     "called": {
-     "D": 1,
+     "D": 4,
      "R": 1
     },
     "lead": {
-     "D": 0,
-     "R": 0
+     "D": 1,
+     "R": 1
     },
-    "agg": "01:53"
+    "agg": "02:15"
    },
    "cur": {
     "D": 6,
