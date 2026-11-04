@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 03:44",
+ "aggiornato": "4 novembre 2026, 04:06",
  "mode": "live",
  "races": {
   "AL": {
@@ -620,12 +620,12 @@
    },
    "live": {
     "v": {
-     "Kelly Ayotte": 50.0,
-     "Cinde Warmington": 46.2
+     "Kelly Ayotte": 49.7,
+     "Cinde Warmington": 48.5
     },
-    "scrut": 31.8,
+    "scrut": 40.6,
     "called": false,
-    "agg": "02:59"
+    "agg": "04:03"
    },
    "close": "02:00"
   },
@@ -715,12 +715,12 @@
    },
    "live": {
     "v": {
-     "Amy Acton": 51.3,
-     "Vivek Ramaswamy": 45.4
+     "Amy Acton": 50.7,
+     "Vivek Ramaswamy": 46.0
     },
-    "scrut": 60.3,
+    "scrut": 62.7,
     "called": false,
-    "agg": "03:41"
+    "agg": "04:03"
    },
    "close": "01:30"
   },
@@ -990,12 +990,12 @@
    },
    "live": {
     "v": {
-     "Phil Scott": 53.9,
-     "Amanda Janoo": 44.3
+     "Phil Scott": 52.9,
+     "Amanda Janoo": 45.4
     },
-    "scrut": 51.1,
+    "scrut": 72.2,
     "called": false,
-    "agg": "02:59"
+    "agg": "04:03"
    },
    "close": "01:00"
   },
@@ -1024,12 +1024,12 @@
    },
    "live": {
     "v": {
-     "David Crowley": 53.5,
-     "Tom Tiffany": 46.5
+     "David Crowley": 54.5,
+     "Tom Tiffany": 45.5
     },
-    "scrut": 17.3,
+    "scrut": 16.4,
     "called": false,
-    "agg": "03:41"
+    "agg": "04:03"
    },
    "close": "03:00"
   },

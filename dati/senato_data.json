@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 03:44",
+ "aggiornato": "4 novembre 2026, 04:06",
  "states": {
   "AL": {
    "fips": "01",
@@ -495,12 +495,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "Adam Hamilton": 58.2,
-      "Roger Marshall": 39.4
+      "Adam Hamilton": 57.4,
+      "Roger Marshall": 40.1
      },
-     "scrut": 51.9,
+     "scrut": 60.5,
      "called": false,
-     "agg": "03:41"
+     "agg": "04:03"
     }
    }
   },
@@ -953,13 +953,13 @@
     "close": "02:00",
     "live": {
      "v": {
-      "Chris Pappas": 60.1,
-      "John E. Sununu": 38.1
+      "Chris Pappas": 57.9,
+      "John E. Sununu": 40.4
      },
-     "scrut": 23.2,
+     "scrut": 39.0,
      "called": true,
      "winner": "Chris Pappas",
-     "agg": "02:37"
+     "agg": "04:03"
     }
    }
   },
@@ -1303,12 +1303,13 @@
     "close": "01:00",
     "live": {
      "v": {
-      "Annie Andrews": 51.2,
+      "Annie Andrews": 51.0,
       "Darline Graham": 46.8
      },
-     "scrut": 81.9,
-     "called": false,
-     "agg": "03:41"
+     "scrut": 86.3,
+     "called": true,
+     "winner": "Annie Andrews",
+     "agg": "04:03"
     }
    }
   },
