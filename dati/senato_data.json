@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 02:40",
+ "aggiornato": "4 novembre 2026, 03:02",
  "states": {
   "AL": {
    "fips": "01",
@@ -470,12 +470,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "Adam Hamilton": 56.9,
-      "Roger Marshall": 41.2
+      "Adam Hamilton": 63.1,
+      "Roger Marshall": 35.0
      },
-     "scrut": 8.0,
+     "scrut": 35.4,
      "called": false,
-     "agg": "02:15"
+     "agg": "02:59"
     }
    }
   },
@@ -512,12 +512,13 @@
     "close": "01:00",
     "live": {
      "v": {
-      "Andy Barr": 53.3,
-      "Charles Booker": 44.7
+      "Andy Barr": 52.5,
+      "Charles Booker": 45.4
      },
-     "scrut": 49.9,
-     "called": false,
-     "agg": "02:37"
+     "scrut": 60.8,
+     "called": true,
+     "winner": "Andy Barr",
+     "agg": "02:59"
     }
    }
   },
@@ -588,12 +589,12 @@
     "close": "02:00",
     "live": {
      "v": {
-      "Susan Collins": 64.4,
-      "Troy Jackson": 35.6
+      "Troy Jackson": 58.0,
+      "Susan Collins": 42.0
      },
-     "scrut": 1,
+     "scrut": 3.8,
      "called": false,
-     "agg": "02:37"
+     "agg": "02:59"
     }
    }
   },
@@ -687,12 +688,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "Abdul El-Sayed": 57.2,
-      "Mike Rogers": 41.2
+      "Abdul El-Sayed": 55.8,
+      "Mike Rogers": 42.6
      },
-     "scrut": 8.8,
+     "scrut": 12.6,
      "called": false,
-     "agg": "02:37"
+     "agg": "02:59"
     }
    }
   },
@@ -1087,12 +1088,12 @@
     "close": "01:30",
     "live": {
      "v": {
-      "Sherrod Brown": 64.0,
-      "Jon Husted": 32.9
+      "Sherrod Brown": 52.9,
+      "Jon Husted": 43.1
      },
-     "scrut": 22.2,
+     "scrut": 43.9,
      "called": false,
-     "agg": "01:53"
+     "agg": "02:59"
     }
    }
   },
@@ -1235,12 +1236,12 @@
     "close": "01:00",
     "live": {
      "v": {
-      "Annie Andrews": 52.6,
-      "Darline Graham": 45.7
+      "Annie Andrews": 53.6,
+      "Darline Graham": 44.7
      },
-     "scrut": 30,
+     "scrut": 65.4,
      "called": false,
-     "agg": "02:37"
+     "agg": "02:59"
     }
    }
   },
@@ -1345,12 +1346,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "James Talarico": 59.5,
-      "Ken Paxton": 39.0
+      "James Talarico": 58.3,
+      "Ken Paxton": 40.1
      },
-     "scrut": 24.7,
+     "scrut": 37.7,
      "called": false,
-     "agg": "02:37"
+     "agg": "02:59"
     }
    }
   },
@@ -1468,8 +1469,9 @@
       "Rachel Fetty Anderson": 48.0
      },
      "scrut": 6.1,
-     "called": false,
-     "agg": "01:53"
+     "called": true,
+     "agg": "02:59",
+     "winner": "Shelley Moore Capito"
     }
    }
   },
