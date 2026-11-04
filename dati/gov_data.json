@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 04:06",
+ "aggiornato": "4 novembre 2026, 04:28",
  "mode": "live",
  "races": {
   "AL": {
@@ -85,7 +85,15 @@
      "Andy Biggs": 45
     }
    },
-   "live": null,
+   "live": {
+    "v": {
+     "Katie Hobbs": 58.6,
+     "Andy Biggs": 39.9
+    },
+    "scrut": 64.8,
+    "called": false,
+    "agg": "04:24"
+   },
    "close": "03:00"
   },
   "AR": {
@@ -103,7 +111,13 @@
     ]
    ],
    "poll": null,
-   "live": null,
+   "live": {
+    "v": {},
+    "scrut": 1,
+    "called": true,
+    "winner": "Sarah Huckabee Sanders",
+    "agg": "04:24"
+   },
    "close": "02:30"
   },
   "CA": {
@@ -342,12 +356,12 @@
    },
    "live": {
     "v": {
-     "Rob Sand": 65.5,
-     "Zach Lahn": 34.5
+     "Rob Sand": 58.6,
+     "Zach Lahn": 41.4
     },
-    "scrut": 22.5,
+    "scrut": 38.2,
     "called": false,
-    "agg": "03:41"
+    "agg": "04:24"
    },
    "close": "03:00"
   },
@@ -376,12 +390,12 @@
    },
    "live": {
     "v": {
-     "Cindy Holscher": 57.3,
-     "Ty Masterson": 42.7
+     "Cindy Holscher": 54.1,
+     "Ty Masterson": 45.9
     },
-    "scrut": 51.6,
+    "scrut": 70.3,
     "called": false,
-    "agg": "03:41"
+    "agg": "04:24"
    },
    "close": "03:00"
   },
@@ -508,12 +522,12 @@
    },
    "live": {
     "v": {
-     "Jocelyn Benson": 57.1,
-     "John James": 41.4
+     "Jocelyn Benson": 56.3,
+     "John James": 42.2
     },
-    "scrut": 17.7,
+    "scrut": 22.7,
     "called": false,
-    "agg": "03:41"
+    "agg": "04:24"
    },
    "close": "03:00"
   },
@@ -715,12 +729,12 @@
    },
    "live": {
     "v": {
-     "Amy Acton": 50.7,
-     "Vivek Ramaswamy": 46.0
+     "Amy Acton": 50.4,
+     "Vivek Ramaswamy": 46.2
     },
-    "scrut": 62.7,
+    "scrut": 79.4,
     "called": false,
-    "agg": "04:03"
+    "agg": "04:24"
    },
    "close": "01:30"
   },
@@ -956,12 +970,12 @@
    },
    "live": {
     "v": {
-     "Gina Hinojosa": 57.4,
-     "Greg Abbott": 41.4
+     "Gina Hinojosa": 56.0,
+     "Greg Abbott": 42.7
     },
-    "scrut": 52.8,
+    "scrut": 57.7,
     "called": false,
-    "agg": "03:41"
+    "agg": "04:24"
    },
    "close": "03:00"
   },
@@ -1024,12 +1038,12 @@
    },
    "live": {
     "v": {
-     "David Crowley": 54.5,
-     "Tom Tiffany": 45.5
+     "David Crowley": 55.2,
+     "Tom Tiffany": 44.8
     },
-    "scrut": 16.4,
+    "scrut": 59.9,
     "called": false,
-    "agg": "04:03"
+    "agg": "04:24"
    },
    "close": "03:00"
   },

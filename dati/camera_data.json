@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 04:06",
+ "aggiornato": "4 novembre 2026, 04:28",
  "mode": "live",
  "attuale": {
   "D": 215,
@@ -678,7 +678,18 @@
    "safeR": 6,
    "tossD": 3,
    "tossR": 1,
-   "live": null,
+   "live": {
+    "started": true,
+    "called": {
+     "D": 1,
+     "R": 0
+    },
+    "lead": {
+     "D": 0,
+     "R": 0
+    },
+    "agg": "04:24"
+   },
    "cur": {
     "D": 7,
     "R": 10,
@@ -767,14 +778,14 @@
    "live": {
     "started": true,
     "called": {
-     "D": 5,
+     "D": 6,
      "R": 0
     },
     "lead": {
      "D": 0,
      "R": 0
     },
-    "agg": "02:59"
+    "agg": "04:24"
    },
    "cur": {
     "D": 13,
@@ -900,5 +911,7 @@
     "bR": 0
    }
   }
- }
+ },
+ "controllo": "D",
+ "fonte": "proiezione NBC News"
 }

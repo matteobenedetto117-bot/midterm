@@ -410,7 +410,8 @@ const hx=p=>p==='V'?HEXV:HEX[p];
     document.getElementById('hDsub').textContent=`${cD} eletti`; document.getElementById('hRsub').textContent=`${cR} eletti`;
     document.getElementById('hmid').innerHTML=`Proiezione attuale<br>${cD+cR}/435 assegnati`;
     const c=document.getElementById('hctrl');
-    if(pD>=218){c.textContent='Democratici in vantaggio per il controllo della Camera';c.style.background='#e1eafb';c.style.color='var(--d)';}
+    if(HDATA.controllo){c.textContent=(HDATA.controllo==='D'?'Democratici':'Repubblicani')+' conquistano la maggioranza della Camera ('+(HDATA.fonte||'proiezione')+')';c.style.background=HDATA.controllo==='D'?'#e1eafb':'#fbe3e3';c.style.color=HDATA.controllo==='D'?'var(--d)':'var(--r)';}
+    else if(pD>=218){c.textContent='Democratici in vantaggio per il controllo della Camera';c.style.background='#e1eafb';c.style.color='var(--d)';}
     else if(pR>=218){c.textContent='Repubblicani in vantaggio per il controllo della Camera';c.style.background='#fbe3e3';c.style.color='var(--r)';}
   } else {
     document.getElementById('hD').textContent=A.D; document.getElementById('hR').textContent=A.R;

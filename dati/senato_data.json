@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 04:06",
+ "aggiornato": "4 novembre 2026, 04:28",
  "states": {
   "AL": {
    "fips": "01",
@@ -38,8 +38,9 @@
       "Everett Wess": 37.6
      },
      "scrut": 11.6,
-     "called": false,
-     "agg": "03:41"
+     "called": true,
+     "agg": "04:24",
+     "winner": "Barry Moore"
     }
    }
   },
@@ -495,12 +496,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "Adam Hamilton": 57.4,
-      "Roger Marshall": 40.1
+      "Adam Hamilton": 55.0,
+      "Roger Marshall": 42.2
      },
-     "scrut": 60.5,
+     "scrut": 70.3,
      "called": false,
-     "agg": "04:03"
+     "agg": "04:24"
     }
    }
   },
@@ -580,12 +581,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "Julia Letlow": 56.8,
-      "Jamie Davis": 43.2
+      "Julia Letlow": 56.9,
+      "Jamie Davis": 43.1
      },
-     "scrut": 13.8,
+     "scrut": 59.7,
      "called": false,
-     "agg": "03:20"
+     "agg": "04:24"
     }
    }
   },
@@ -1380,12 +1381,13 @@
     "close": "02:00",
     "live": {
      "v": {
-      "Bill Hagerty": 53.1,
-      "Marquita Bradshaw": 45.0
+      "Bill Hagerty": 54.9,
+      "Marquita Bradshaw": 43.2
      },
-     "scrut": 57.2,
-     "called": false,
-     "agg": "03:41"
+     "scrut": 77.2,
+     "called": true,
+     "winner": "Bill Hagerty",
+     "agg": "04:24"
     }
    }
   },
@@ -1422,12 +1424,12 @@
     "close": "03:00",
     "live": {
      "v": {
-      "James Talarico": 59.4,
-      "Ken Paxton": 39.1
+      "James Talarico": 58.2,
+      "Ken Paxton": 40.2
      },
-     "scrut": 53.2,
+     "scrut": 57.0,
      "called": false,
-     "agg": "03:41"
+     "agg": "04:24"
     }
    }
   },
