@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 00:50",
+ "aggiornato": "4 novembre 2026, 01:15",
  "states": {
   "AL": {
    "fips": "01",
@@ -263,7 +263,15 @@
      }
     },
     "close": "01:00",
-    "live": null
+    "live": {
+     "v": {
+      "Jon Ossoff": 58.9,
+      "Mike Collins": 41.1
+     },
+     "scrut": 1,
+     "called": false,
+     "agg": "01:10"
+    }
    }
   },
   "HI": {
@@ -461,7 +469,15 @@
      }
     },
     "close": "01:00",
-    "live": null
+    "live": {
+     "v": {
+      "Charles Booker": 51.3,
+      "Andy Barr": 47.3
+     },
+     "scrut": 9.6,
+     "called": false,
+     "agg": "01:10"
+    }
    }
   },
   "LA": {
@@ -1274,7 +1290,16 @@
      }
     },
     "close": "01:00",
-    "live": null
+    "live": {
+     "v": {
+      "Mark Warner": 38.0,
+      "Bert Mizusawa": 61.9
+     },
+     "scrut": 1,
+     "called": true,
+     "winner": "Mark Warner",
+     "agg": "01:10"
+    }
    }
   },
   "WA": {

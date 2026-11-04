@@ -190,6 +190,7 @@ const partyOf=(r,name)=>{const c=r.cand.find(x=>x[1]===name);return c?c[0]:null}
 const hasLive=r=>r._mode==='live'&&r.live&&r.live.scrut>0;
 function leader(r){ // party currently shown as fill
   if(!hasLive(r)) return r.inc;
+  if(r.live.winner) return partyOf(r,r.live.winner);
   const e=Object.entries(r.live.v).sort((a,b)=>b[1]-a[1])[0]; return partyOf(r,e[0]);
 }
 function score(r){ // + = D/I side, - = R side
@@ -308,7 +309,7 @@ function openPop(ab,isG){
   let h=`<button class="x" aria-label="Chiudi">×</button><h2>${s.it}${r.special?'<span class="chip">speciale</span>':''}<span class="chip">${r.rating}</span></h2>
   <div class="meta">${isG?'Governatore attuale':'Seggio attuale'}: <b style="color:${C[r.inc]}">${PN[r.inc]}</b> · ${r.uscente}<br>Chiusura seggi: <b>${r.close}</b> (ora italiana)</div>`;
   if(LV&&L&&L.scrut>0){
-    const w=L.called?Object.entries(L.v).sort((a,b)=>b[1]-a[1])[0][0]:null;
+    const w=L.called?(L.winner||Object.entries(L.v).sort((a,b)=>b[1]-a[1])[0][0]):null;
     h+=`<div style="font-size:13px;font-weight:600;margin-bottom:4px"><span class="live-dot"></span>Spoglio in diretta</div>`;
     h+=rows(r,L.v,w);
     h+=`<div class="track" style="height:6px;margin-top:12px"><div style="width:${L.scrut}%;background:#1c1c1c"></div></div>
