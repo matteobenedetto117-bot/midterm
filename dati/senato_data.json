@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 01:35",
+ "aggiornato": "4 novembre 2026, 01:55",
  "states": {
   "AL": {
    "fips": "01",
@@ -231,12 +231,12 @@
     "close": "02:00",
     "live": {
      "v": {
-      "Angie Nixon": 50.0,
-      "Ashley Moody": 49.0
+      "Angie Nixon": 49.6,
+      "Ashley Moody": 49.3
      },
-     "scrut": 63.4,
+     "scrut": 82.1,
      "called": false,
-     "agg": "01:32"
+     "agg": "01:53"
     }
    }
   },
@@ -1001,7 +1001,15 @@
      }
     },
     "close": "01:30",
-    "live": null
+    "live": {
+     "v": {
+      "Sherrod Brown": 64.0,
+      "Jon Husted": 32.9
+     },
+     "scrut": 22.2,
+     "called": false,
+     "agg": "01:53"
+    }
    }
   },
   "OK": {
@@ -1309,13 +1317,13 @@
     "close": "01:00",
     "live": {
      "v": {
-      "Mark Warner": 38.0,
-      "Bert Mizusawa": 61.9
+      "Mark Warner": 56.3,
+      "Bert Mizusawa": 43.4
      },
-     "scrut": 1,
+     "scrut": 19.1,
      "called": true,
      "winner": "Mark Warner",
-     "agg": "01:10"
+     "agg": "01:53"
     }
    }
   },
@@ -1356,7 +1364,15 @@
     ],
     "poll": null,
     "close": "01:30",
-    "live": null
+    "live": {
+     "v": {
+      "Shelley Moore Capito": 48.9,
+      "Rachel Fetty Anderson": 48.0
+     },
+     "scrut": 6.1,
+     "called": false,
+     "agg": "01:53"
+    }
    }
   },
   "WI": {

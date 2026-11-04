@@ -1,5 +1,5 @@
 {
- "aggiornato": "4 novembre 2026, 01:35",
+ "aggiornato": "4 novembre 2026, 01:55",
  "mode": "live",
  "races": {
   "AL": {
@@ -193,12 +193,12 @@
    },
    "live": {
     "v": {
-     "David Jolly": 50.6,
-     "Byron Donalds": 48.2
+     "Byron Donalds": 49.8,
+     "David Jolly": 49.0
     },
-    "scrut": 57.6,
+    "scrut": 67.7,
     "called": false,
-    "agg": "01:32"
+    "agg": "01:53"
    },
    "close": "02:00"
   },
@@ -227,12 +227,12 @@
    },
    "live": {
     "v": {
-     "Keisha Lance Bottoms": 63.2,
-     "Rick Jackson": 36.8
+     "Keisha Lance Bottoms": 60.1,
+     "Rick Jackson": 39.9
     },
-    "scrut": 23.3,
+    "scrut": 33.2,
     "called": false,
-    "agg": "01:32"
+    "agg": "01:53"
    },
    "close": "01:00"
   },
@@ -560,7 +560,15 @@
      "Cinde Warmington": 42
     }
    },
-   "live": null,
+   "live": {
+    "v": {
+     "Cinde Warmington": 52.0,
+     "Kelly Ayotte": 45.4
+    },
+    "scrut": 12.3,
+    "called": false,
+    "agg": "01:53"
+   },
    "close": "02:00"
   },
   "NM": {
@@ -638,7 +646,15 @@
      "Vivek Ramaswamy": 43
     }
    },
-   "live": null,
+   "live": {
+    "v": {
+     "Amy Acton": 65.7,
+     "Vivek Ramaswamy": 32.2
+    },
+    "scrut": 22.1,
+    "called": false,
+    "agg": "01:53"
+   },
    "close": "01:30"
   },
   "OK": {
